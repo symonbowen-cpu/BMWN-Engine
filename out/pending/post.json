@@ -1,16 +1,15 @@
 {
-  "createdAt": "2026-07-03T03:01:50.982Z",
-  "pillar": "stat",
-  "template": "stat",
-  "topic": "How many people judge a business's credibility by its website",
-  "caption": "75% of customers have already decided if they trust you.\nBefore they call. Before they walk in.\nYour website is doing the talking.\nMake sure it's saying the right things. DM us 'SITE'.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #LocalSEO #CredibilityMatters",
-  "alt_text": "Bold text on a clean background displaying the statistic that 75 percent of people judge a business's credibility by its website design.",
+  "createdAt": "2026-07-03T03:07:18.643Z",
+  "pillar": "myth",
+  "template": "myth",
+  "topic": "Myth: 'A Facebook page is the same as a website'",
+  "caption": "Facebook is rented space.\nYour website is owned ground.\nWhen the algorithm shifts, your site still works for you.\nStop depending on a platform you don't control.\nDM us 'SITE' to get started.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #WebsiteDesign #DigitalPresence #OwnYourBusiness #OnlineMarketing",
+  "alt_text": "Bold text graphic with the words 'You rent Facebook. You own your website.' on a clean dark background with the BuildMyWebNow logo.",
   "copy": {
-    "eyebrow": "First Impressions",
-    "stat": "75%",
-    "headline": "of people judge credibility by your website",
-    "body": "Stanford Web Credibility Research found 75% of consumers admit to judging a business's credibility based on its website design.",
-    "caption": "75% of customers have already decided if they trust you.\nBefore they call. Before they walk in.\nYour website is doing the talking.\nMake sure it's saying the right things. DM us 'SITE'.",
+    "myth": "A Facebook page is all I need online",
+    "fact": "You rent Facebook. You own your website.",
+    "body": "Facebook can change its rules or vanish overnight. Your website is yours. It builds trust and shows up on Google.",
+    "caption": "Facebook is rented space.\nYour website is owned ground.\nWhen the algorithm shifts, your site still works for you.\nStop depending on a platform you don't control.\nDM us 'SITE' to get started.",
     "hashtags": [
       "#HighDesert",
       "#Victorville",
@@ -19,13 +18,14 @@
       "#SmallBusiness",
       "#WebDesign",
       "#SmallBusinessOwner",
-      "#VeteranOwned",
-      "#InlandEmpire",
-      "#WebsiteDesign",
       "#LocalSEO",
-      "#CredibilityMatters"
+      "#VeteranOwned",
+      "#WebsiteDesign",
+      "#DigitalPresence",
+      "#OwnYourBusiness",
+      "#OnlineMarketing"
     ],
-    "alt_text": "Bold text on a clean background displaying the statistic that 75 percent of people judge a business's credibility by its website design.",
+    "alt_text": "Bold text graphic with the words 'You rent Facebook. You own your website.' on a clean dark background with the BuildMyWebNow logo.",
     "handle": "@buildmywebnow",
     "url": "buildmywebnow.com"
   }
