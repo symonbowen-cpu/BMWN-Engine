@@ -51,7 +51,7 @@
   .card {
     position: relative;
     width: 1080px; height: 1080px;
-    padding: 96px 96px 0;
+    padding: 96px 96px 250px;
     display: flex; flex-direction: column;
   }
 
@@ -88,10 +88,10 @@
     margin: 52px 0;
   }
 
-  /* footer sits above the ridgeline */
+  /* footer flows to the bottom of the content area, always clearing the ridgeline */
   .footer {
-    position: absolute;
-    left: 96px; right: 96px; bottom: 210px;
+    margin-top: auto;
+    padding-top: 40px;
     display: flex; justify-content: space-between; align-items: baseline;
     font-family: 'JetBrains Mono', monospace;
     font-size: 26px; letter-spacing: 0.08em;
