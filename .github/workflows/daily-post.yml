@@ -68,6 +68,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          gh label create "pending-post" --color "F97316" --description "Post awaiting approval" || true
           CAPTION=$(node -e "console.log(require('./out/pending/post.json').caption)")
           SHA="${{ steps.push.outputs.sha }}"
           IMG="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${SHA}/out/pending/post.png"
