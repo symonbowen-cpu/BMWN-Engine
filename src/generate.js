@@ -35,6 +35,8 @@ async function writeCopy(cfg, pillar, topic) {
 
   const prompt = `You write Instagram content for ${cfg.brand.name} (${cfg.brand.url}), a web design service for small businesses in ${cfg.brand.region} of California (${cfg.brand.cities.join(", ")}).
 
+NON-NEGOTIABLE FRAMING: Every post is marketing for ${cfg.brand.name}, a company that BUILDS WEBSITES. The reader is a small business owner we want to hire us. Never write copy that sounds like an advertisement for the example business itself (e.g. an HVAC company, a barbershop). We are always the one speaking, and our product is always websites. If a post could be mistaken for another type of business's own ad, it is wrong. The takeaway a reader should always get: "this company builds websites for businesses like mine."
+
 Voice: ${cfg.brand.voice}
 
 Today's post pillar: ${pillar.id}

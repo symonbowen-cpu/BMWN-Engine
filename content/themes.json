@@ -52,14 +52,14 @@
     {
       "id": "showcase",
       "template": "showcase",
-      "goal": "Spotlight one business category we build sites for, with a concrete example of what that site does for the owner (booking, calls, directions, reviews).",
+      "goal": "Show that BuildMyWebNow builds websites for a specific business category. CRITICAL: the headline must be from BuildMyWebNow's perspective selling web design to that business owner, NOT ad copy for the business itself. The headline says what a website DOES for that kind of business (get found, get calls, get bookings) and implicitly that we build it. Good headline: 'HVAC sites that turn Google searches into calls'. Bad headline: 'Emergency AC repair you can trust' (that is the HVAC company's own ad, not ours). The browser mockup shows a sample site we would build for that category; the headline sells OUR service.",
       "topics": [
-        "Barbershops: turn Instagram followers into booked chairs",
-        "HVAC companies: emergency calls start with a Google search",
-        "Salons: a booking page that works while you sleep",
-        "Restaurants: your menu should never be a blurry photo",
-        "Auto shops: estimates requests straight from your site",
-        "Real estate: listings that load fast on any phone",
+        "Barbershops: a site that turns followers into booked chairs",
+        "HVAC companies: a site that captures the emergency Google search",
+        "Salons: a booking page that works while the owner sleeps",
+        "Restaurants: a site with a menu that never looks like a blurry photo",
+        "Auto shops: a site that pulls in estimate requests",
+        "Real estate: a fast site that loads listings on any phone",
         "Dental offices: new patient forms before they arrive"
       ]
     },
