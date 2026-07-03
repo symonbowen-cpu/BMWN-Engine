@@ -1,0 +1,63 @@
+name: Approve or Skip Post
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: posting
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    # Only run on issues labeled pending-post, for /approve or /skip,
+    # from someone with write access to the repo.
+    if: >
+      contains(github.event.issue.labels.*.name, 'pending-post') &&
+      (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/skip')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies (no browser needed to publish)
+        run: PUPPETEER_SKIP_DOWNLOAD=1 npm ci
+
+      - name: Publish to Instagram
+        if: startsWith(github.event.comment.body, '/approve')
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          IMAGE_PUBLIC_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/out/pending/post.png
+        run: node src/publish.js
+
+      - name: Discard pending post
+        if: startsWith(github.event.comment.body, '/skip')
+        run: rm -f out/pending/post.png out/pending/post.json
+
+      - name: Commit result
+        run: |
+          git config user.name "bmwn-content-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A out/
+          git commit -m "content: ${{ startsWith(github.event.comment.body, '/approve') && 'published' || 'skipped' }} pending post" || echo "nothing to commit"
+          git push
+
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERB="${{ startsWith(github.event.comment.body, '/approve') && 'Published to Instagram.' || 'Skipped and discarded.' }}"
+          gh issue close ${{ github.event.issue.number }} --comment "$VERB"

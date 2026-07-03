@@ -1,0 +1,77 @@
+name: Daily Instagram Post
+
+on:
+  schedule:
+    # 16:00 UTC = 9:00 AM Pacific (8:00 AM during standard time). Adjust to taste.
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}   # lets you trigger a post manually from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: posting
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.push.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate today's post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node src/generate.js
+
+      - name: Commit pending post + rotation state
+        id: push
+        run: |
+          git config user.name "bmwn-content-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add out/pending content/state.json
+          git commit -m "content: draft post $(date -u +%F)"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # ---------- PATH A: fully autonomous ----------
+      - name: Publish to Instagram (auto mode)
+        if: vars.AUTO_PUBLISH == 'true'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          GITHUB_SHA: ${{ steps.push.outputs.sha }}
+        run: node src/publish.js
+
+      - name: Commit publish archive (auto mode)
+        if: vars.AUTO_PUBLISH == 'true'
+        run: |
+          git add -A out/
+          git commit -m "content: published $(date -u +%F)" || echo "nothing to commit"
+          git push
+
+      # ---------- PATH B: approval mode ----------
+      - name: Open approval issue
+        if: vars.AUTO_PUBLISH != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CAPTION=$(node -e "console.log(require('./out/pending/post.json').caption)")
+          SHA="${{ steps.push.outputs.sha }}"
+          IMG="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${SHA}/out/pending/post.png"
+          gh issue create \
+            --title "Approve post: $(date -u +%F)" \
+            --label "pending-post" \
+            --body "$(printf '![preview](%s)\n\n**Caption:**\n\n```\n%s\n```\n\n---\nComment **/approve** to publish, or **/skip** to discard.' "$IMG" "$CAPTION")"

@@ -1,0 +1,85 @@
+{
+  "brand": {
+    "name": "BuildMyWebNow",
+    "handle": "@buildmywebnow",
+    "url": "buildmywebnow.com",
+    "region": "the High Desert",
+    "cities": ["Victorville", "Hesperia", "Apple Valley", "Adelanto", "Barstow"],
+    "voice": "Direct, practical, veteran-owned small business talking to other small business owners. No corporate fluff, no jargon. Confident but never salesy. Short sentences."
+  },
+  "pillars": [
+    {
+      "id": "local_seo_tip",
+      "template": "tip",
+      "goal": "Teach one actionable local SEO tactic a High Desert business owner can use this week.",
+      "topics": [
+        "Google Business Profile: why responding to every review boosts local ranking",
+        "The one line every website needs: city + service in the page title",
+        "Why 'near me' searches skip businesses without a website",
+        "How photos on your Google listing affect calls",
+        "Why your hours being wrong online costs you customers",
+        "What a sitemap is and why Google cares",
+        "Why Facebook-only businesses are invisible on Google",
+        "How to pick the right business category on Google Maps"
+      ]
+    },
+    {
+      "id": "stat",
+      "template": "stat",
+      "goal": "Share one true, verifiable statistic about small business websites or local search, framed for High Desert owners. Only use statistics you are confident are real and current; if unsure, use a conservative widely-cited figure.",
+      "topics": [
+        "Percentage of consumers who search online before visiting a local business",
+        "How many people judge a business's credibility by its website",
+        "Mobile share of local searches",
+        "How fast visitors leave a slow-loading site",
+        "Share of small businesses that still have no website",
+        "How often a Google Business Profile with a website link gets more clicks"
+      ]
+    },
+    {
+      "id": "myth",
+      "template": "myth",
+      "goal": "Bust one common myth small business owners believe about websites.",
+      "topics": [
+        "Myth: 'My customers are all word-of-mouth, I don't need a website'",
+        "Myth: 'A Facebook page is the same as a website'",
+        "Myth: 'Websites cost thousands and take months'",
+        "Myth: 'Nobody in a small town searches online'",
+        "Myth: 'I need to post content constantly for a website to work'",
+        "Myth: 'Yelp has me covered'"
+      ]
+    },
+    {
+      "id": "showcase",
+      "template": "showcase",
+      "goal": "Spotlight one business category we build sites for, with a concrete example of what that site does for the owner (booking, calls, directions, reviews).",
+      "topics": [
+        "Barbershops: turn Instagram followers into booked chairs",
+        "HVAC companies: emergency calls start with a Google search",
+        "Salons: a booking page that works while you sleep",
+        "Restaurants: your menu should never be a blurry photo",
+        "Auto shops: estimates requests straight from your site",
+        "Real estate: listings that load fast on any phone",
+        "Dental offices: new patient forms before they arrive"
+      ]
+    },
+    {
+      "id": "quick_win",
+      "template": "tip",
+      "goal": "Give a 10-minute action any business owner can do today to improve their online presence, no website required. Builds trust by being useful with no strings attached.",
+      "topics": [
+        "Claim your free Google Business Profile in 10 minutes",
+        "Ask your 3 happiest customers for a Google review today",
+        "Add your phone number to your Instagram bio",
+        "Take 5 photos of your work and post them to your Google listing",
+        "Google your own business name and see what customers see",
+        "Make sure your holiday hours are updated online"
+      ]
+    }
+  ],
+  "hashtag_bank": [
+    "#HighDesert", "#Victorville", "#Hesperia", "#AppleValley", "#Adelanto", "#Barstow",
+    "#SmallBusiness", "#ShopLocal", "#WebDesign", "#SmallBusinessOwner", "#LocalSEO",
+    "#VeteranOwned", "#InlandEmpire", "#SupportLocal", "#WebsiteDesign"
+  ]
+}

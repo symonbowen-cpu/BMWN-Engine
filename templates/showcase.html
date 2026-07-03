@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+{{__base}}
+<div class="card">
+  <div class="eyebrow">BUILT FOR {{category}}</div>
+  <h1 class="display" style="font-size: 76px; max-width: 900px;">{{headline}}</h1>
+
+  <!-- stylized browser frame -->
+  <div style="margin-top: 60px; width: 860px; background: var(--dusk); border-radius: 18px; border: 1px solid rgba(255,179,71,0.22); overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,0.5);">
+    <div style="display: flex; align-items: center; gap: 10px; padding: 18px 24px; background: rgba(255,255,255,0.04); border-bottom: 1px solid rgba(255,255,255,0.06);">
+      <span style="width: 14px; height: 14px; border-radius: 50%; background: #3A4358;"></span>
+      <span style="width: 14px; height: 14px; border-radius: 50%; background: #3A4358;"></span>
+      <span style="width: 14px; height: 14px; border-radius: 50%; background: #3A4358;"></span>
+      <span style="margin-left: 18px; font-family: 'JetBrains Mono', monospace; font-size: 21px; color: var(--faint); letter-spacing: 0.04em;">{{mock_url}}</span>
+    </div>
+    <div style="padding: 40px 44px 46px;">
+      <div style="font-family: 'Archivo Black', sans-serif; font-size: 40px; color: var(--sand); margin-bottom: 14px;">{{mock_title}}</div>
+      <div style="font-size: 26px; line-height: 1.5; color: var(--faint); margin-bottom: 30px; max-width: 640px;">{{mock_sub}}</div>
+      <div style="display: inline-block; padding: 18px 34px; border-radius: 10px; background: linear-gradient(90deg, var(--dawn-1), var(--dawn-2)); color: #14100A; font-weight: 600; font-size: 26px;">{{mock_cta}}</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="handle">{{handle}}</span>
+    <span class="url">{{url}}</span>
+  </div>
+</div>
+</body>
+</html>

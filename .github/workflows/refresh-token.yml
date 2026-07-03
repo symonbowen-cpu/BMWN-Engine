@@ -1,0 +1,40 @@
+name: Refresh Instagram Token (Route A only)
+
+# Only needed if you skipped the Facebook Page and use Business Login for
+# Instagram (IG_GRAPH_HOST=graph.instagram.com). Those tokens last ~60 days;
+# this refreshes the token every 3 weeks and writes it back to the repo secret.
+#
+# Requires one extra secret: REPO_ADMIN_TOKEN — a GitHub fine-grained PAT for
+# this repo with "Secrets: read and write" permission, so the workflow can
+# update IG_ACCESS_TOKEN. (GITHUB_TOKEN can't modify secrets.)
+#
+# If you went the Facebook Page + System User route, delete this file —
+# your token never expires.
+
+on:
+  schedule:
+    - cron: "0 12 */21 * *"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh long-lived token
+        id: refresh
+        run: |
+          RESPONSE=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${{ secrets.IG_ACCESS_TOKEN }}")
+          NEW_TOKEN=$(echo "$RESPONSE" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('access_token',''))")
+          if [ -z "$NEW_TOKEN" ]; then
+            echo "Refresh failed: $RESPONSE"
+            exit 1
+          fi
+          echo "::add-mask::$NEW_TOKEN"
+          echo "token=$NEW_TOKEN" >> "$GITHUB_OUTPUT"
+          echo "Token refreshed successfully."
+
+      - name: Save new token to repo secret
+        env:
+          GH_TOKEN: ${{ secrets.REPO_ADMIN_TOKEN }}
+        run: |
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "${{ steps.refresh.outputs.token }}"
