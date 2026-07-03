@@ -1,10 +1,11 @@
 {
-  "postCount": 3,
-  "pillarIndex": 3,
+  "postCount": 4,
+  "pillarIndex": 4,
   "topicIndexes": {
     "local_seo_tip": 1,
     "stat": 1,
-    "myth": 1
+    "myth": 1,
+    "showcase": 1
   },
   "lastPosted": null,
   "history": []
