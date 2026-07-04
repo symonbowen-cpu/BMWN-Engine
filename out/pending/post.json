@@ -1,16 +1,15 @@
 {
-  "createdAt": "2026-07-03T17:10:55.501Z",
-  "pillar": "stat",
-  "template": "stat",
-  "topic": "Mobile share of local searches",
-  "caption": "76% of local searches happen on a phone.\nIf your site isn't mobile-friendly, you're losing customers before they ever call.\nHigh Desert shoppers are searching right now. On their phones. For businesses like yours.\nWe build sites that work everywhere. Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #VeteranOwned #SmallBusinessOwner #WebsiteDesign #MobileSearch #LocalBusiness #HighDesertBusiness",
-  "alt_text": "Bold statistic graphic showing '76%' in large text with the caption 'of local searches happen on a mobile phone' and the BuildMyWebNow logo at the bottom.",
+  "createdAt": "2026-07-04T16:51:24.913Z",
+  "pillar": "myth",
+  "template": "myth",
+  "topic": "Myth: 'Websites cost thousands and take months'",
+  "caption": "That price tag in your head is probably wrong.\n\nMost small business websites don't take months or cost a fortune.\n\nWe build professional sites for High Desert businesses fast.\n\nDM us SITE to see what's possible for yours.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #LocalSEO #SmallBusinessWebsite",
+  "alt_text": "Bold text graphic reading 'Myth vs Fact' about website costs and timelines, branded for BuildMyWebNow serving the High Desert of California.",
   "copy": {
-    "eyebrow": "Local Search Fact",
-    "stat": "76%",
-    "headline": "of local searches happen on a mobile phone",
-    "body": "76% of people who search for something nearby do it on mobile. (Source: Google/IPSOS consumer research)",
-    "caption": "76% of local searches happen on a phone.\nIf your site isn't mobile-friendly, you're losing customers before they ever call.\nHigh Desert shoppers are searching right now. On their phones. For businesses like yours.\nWe build sites that work everywhere. Link in bio.",
+    "myth": "Websites cost thousands and take months to build",
+    "fact": "A professional site can launch in days, not months",
+    "body": "Most small business sites don't need to be complex. A clean, fast site that gets you found locally can be built quick and affordable.",
+    "caption": "That price tag in your head is probably wrong.\n\nMost small business websites don't take months or cost a fortune.\n\nWe build professional sites for High Desert businesses fast.\n\nDM us SITE to see what's possible for yours.",
     "hashtags": [
       "#HighDesert",
       "#Victorville",
@@ -18,15 +17,14 @@
       "#AppleValley",
       "#SmallBusiness",
       "#WebDesign",
-      "#LocalSEO",
-      "#VeteranOwned",
       "#SmallBusinessOwner",
+      "#VeteranOwned",
+      "#InlandEmpire",
       "#WebsiteDesign",
-      "#MobileSearch",
-      "#LocalBusiness",
-      "#HighDesertBusiness"
+      "#LocalSEO",
+      "#SmallBusinessWebsite"
     ],
-    "alt_text": "Bold statistic graphic showing '76%' in large text with the caption 'of local searches happen on a mobile phone' and the BuildMyWebNow logo at the bottom.",
+    "alt_text": "Bold text graphic reading 'Myth vs Fact' about website costs and timelines, branded for BuildMyWebNow serving the High Desert of California.",
     "handle": "@buildmywebnow",
     "url": "buildmywebnow.com"
   }
