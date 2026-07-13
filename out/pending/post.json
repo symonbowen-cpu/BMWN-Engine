@@ -1,17 +1,17 @@
 {
-  "createdAt": "2026-07-12T16:43:16.702Z",
-  "pillar": "local_seo_tip",
-  "template": "tip",
-  "topic": "Why your hours being wrong online costs you customers",
-  "caption": "Wrong hours on Google cost you walk-ins.\nA customer checks, sees you're closed. They go somewhere else.\nFix it: search your business name and verify every listing matches your real hours.\nWe build sites that connect to your listings and keep things consistent.\nLink in bio to get started.\n\n#LocalSEO #HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #GoogleMyBusiness",
-  "alt_text": "Bold text on a clean background reading 'Wrong hours online are losing you customers,' with the BuildMyWebNow logo and website URL at the bottom.",
+  "createdAt": "2026-07-13T17:47:40.413Z",
+  "pillar": "stat",
+  "template": "stat",
+  "topic": "Share of small businesses that still have no website",
+  "caption": "1 in 3 small businesses have no website.\nThat means your competitor might be invisible online. You don't have to be.\nWe build simple, professional sites for High Desert businesses.\nDM us 'SITE' and we'll show you what's possible.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #VeteranOwned #InlandEmpire #NoWebsiteNoProblem",
+  "alt_text": "Bold graphic showing the statistic that roughly 1 in 3 small businesses have no website, branded with BuildMyWebNow colors and URL.",
   "copy": {
-    "eyebrow": "LOCAL SEO TIP",
-    "headline": "Wrong Hours Online Are Losing You Customers",
-    "body": "If Google shows you closed when you're open, customers leave and don't come back. Audit your listings today: Google, Yelp, Apple Maps.",
-    "caption": "Wrong hours on Google cost you walk-ins.\nA customer checks, sees you're closed. They go somewhere else.\nFix it: search your business name and verify every listing matches your real hours.\nWe build sites that connect to your listings and keep things consistent.\nLink in bio to get started.",
+    "eyebrow": "Know This Stat",
+    "stat": "~1 in 3",
+    "headline": "Small Businesses Still Have No Website",
+    "body": "Per SCORE & U.S. Small Business Administration data, roughly 1 in 3 small businesses operate with zero online presence.",
+    "caption": "1 in 3 small businesses have no website.\nThat means your competitor might be invisible online. You don't have to be.\nWe build simple, professional sites for High Desert businesses.\nDM us 'SITE' and we'll show you what's possible.",
     "hashtags": [
-      "#LocalSEO",
       "#HighDesert",
       "#Victorville",
       "#Hesperia",
@@ -20,11 +20,12 @@
       "#SmallBusinessOwner",
       "#WebDesign",
       "#WebsiteDesign",
+      "#LocalSEO",
       "#VeteranOwned",
       "#InlandEmpire",
-      "#GoogleMyBusiness"
+      "#NoWebsiteNoProblem"
     ],
-    "alt_text": "Bold text on a clean background reading 'Wrong hours online are losing you customers,' with the BuildMyWebNow logo and website URL at the bottom.",
+    "alt_text": "Bold graphic showing the statistic that roughly 1 in 3 small businesses have no website, branded with BuildMyWebNow colors and URL.",
     "handle": "@buildmywebnow",
     "url": "buildmywebnow.com"
   }
