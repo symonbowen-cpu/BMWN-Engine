@@ -1,0 +1,62 @@
+name: Approve or Skip Reel
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: reel
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    if: >
+      contains(github.event.issue.labels.*.name, 'pending-reel') &&
+      (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/skip')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Extract reel URL from issue
+        id: meta
+        run: |
+          BODY=$(cat << 'ISSUE_BODY_EOF'
+          ${{ github.event.issue.body }}
+          ISSUE_BODY_EOF
+          )
+          echo "url=$(echo "$BODY" | grep -o 'reel_url=[^ ]*' | cut -d= -f2-)" >> "$GITHUB_OUTPUT"
+          echo "tag=$(echo "$BODY" | grep -o 'tag=[^ >]*' | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish Reel
+        if: startsWith(github.event.comment.body, '/approve')
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          REEL_VIDEO_URL: ${{ steps.meta.outputs.url }}
+        run: python reel/publish_reel.py
+
+      - name: Delete release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 60
+          gh release delete "${{ steps.meta.outputs.tag }}" --yes --cleanup-tag || true
+
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERB="${{ startsWith(github.event.comment.body, '/approve') && 'Published to Instagram.' || 'Skipped and discarded.' }}"
+          gh issue close ${{ github.event.issue.number }} --comment "$VERB"

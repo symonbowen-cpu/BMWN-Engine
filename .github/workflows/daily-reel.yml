@@ -1,0 +1,93 @@
+name: Daily Instagram Reel
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # 4:00 PM Pacific — afternoon slot, feed post owns the morning
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: reel
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install cairosvg edge-tts fonttools brotli
+          mkdir -p ~/.fonts
+          python - << 'EOF'
+          import urllib.request, os
+          urls = {
+            "ArchivoBlack.ttf": "https://github.com/google/fonts/raw/main/ofl/archivoblack/ArchivoBlack-Regular.ttf",
+            "JetBrainsMono.ttf": "https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/ttf/JetBrainsMono-Medium.ttf",
+          }
+          for name, url in urls.items():
+              urllib.request.urlretrieve(url, os.path.expanduser(f"~/.fonts/{name}"))
+          EOF
+          fc-cache -f ~/.fonts
+
+      - name: Generate today's Reel
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python reel/generate_reel.py
+
+      - name: Host video as release asset
+        id: host
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="reel-$(date -u +%F)"
+          gh release create "$TAG" --title "$TAG" --notes "daily reel" || true
+          gh release upload "$TAG" out/reel/reel.mp4 --clobber
+          echo "url=https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/reel.mp4" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Commit rotation state + meta
+        run: |
+          git config user.name "bmwn-content-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/reel_state.json out/reel/meta.json
+          git commit -m "reel: $(date -u +%F)" || echo "nothing to commit"
+          git push
+
+      - name: Publish Reel (auto mode)
+        if: vars.AUTO_PUBLISH == 'true'
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          REEL_VIDEO_URL: ${{ steps.host.outputs.url }}
+        run: python reel/publish_reel.py
+
+      - name: Clean up release after publish (auto mode)
+        if: vars.AUTO_PUBLISH == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 60
+          gh release delete "${{ steps.host.outputs.tag }}" --yes --cleanup-tag || true
+
+      - name: Open approval issue
+        if: vars.AUTO_PUBLISH != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create "pending-reel" --color "E1306C" --description "Reel awaiting approval" || true
+          CAPTION=$(python -c "import json;print(json.load(open('out/reel/meta.json'))['caption'])")
+          gh issue create \
+            --title "Approve Reel: $(date -u +%F)" \
+            --label "pending-reel" \
+            --body "$(printf 'Preview/download: %s\n\n**Caption:**\n\n```\n%s\n```\n\n---\nComment **/approve** to publish, or **/skip** to discard.\n\n<!-- reel_url=%s tag=%s -->' "${{ steps.host.outputs.url }}" "$CAPTION" "${{ steps.host.outputs.url }}" "${{ steps.host.outputs.tag }}")"
