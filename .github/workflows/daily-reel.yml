@@ -2,7 +2,7 @@ name: Daily Instagram Reel
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 4:00 PM Pacific — afternoon slot, feed post owns the morning
+    - cron: "37 22 * * *"   # ~3:37 PM Pacific
   workflow_dispatch: {}
 
 permissions:
@@ -28,7 +28,7 @@ jobs:
           sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
           pip install cairosvg edge-tts fonttools brotli
           mkdir -p ~/.fonts
-          python - << 'EOF'
+          python - << 'EOF2'
           import urllib.request, os
           urls = {
             "ArchivoBlack.ttf": "https://github.com/google/fonts/raw/main/ofl/archivoblack/ArchivoBlack-Regular.ttf",
@@ -36,7 +36,7 @@ jobs:
           }
           for name, url in urls.items():
               urllib.request.urlretrieve(url, os.path.expanduser(f"~/.fonts/{name}"))
-          EOF
+          EOF2
           fc-cache -f ~/.fonts
 
       - name: Generate today's Reel
@@ -61,7 +61,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add content/reel_state.json out/reel/meta.json
           git commit -m "reel: $(date -u +%F)" || echo "nothing to commit"
-          git push
+          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
 
       - name: Publish Reel (auto mode)
         if: vars.AUTO_PUBLISH == 'true'
