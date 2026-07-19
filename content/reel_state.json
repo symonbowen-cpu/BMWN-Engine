@@ -1,8 +1,10 @@
 {
-  "postCount": 2,
-  "pillarIndex": 2,
+  "postCount": 4,
+  "pillarIndex": 4,
   "topicIndexes": {
     "local_seo_tip": 1,
-    "stat": 1
+    "stat": 1,
+    "myth": 1,
+    "showcase": 1
   }
 }
