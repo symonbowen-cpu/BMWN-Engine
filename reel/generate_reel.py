@@ -201,6 +201,9 @@ def assemble(parts, paths, out_mp4):
         sfx_plan.append((SFX / "riser.wav", max(offsets[-1] - 500, 0), 0.7))
 
     tracks = sorted([p for ext in ("*.mp3", "*.m4a", "*.wav") for p in MUSIC.glob(ext)]) if MUSIC.exists() else []
+    if tracks:
+        import datetime
+        tracks = [tracks[datetime.date.today().timetuple().tm_yday % len(tracks)]]
 
     inputs, filters, mix_labels = [], [], []
     idx = 0
