@@ -1,16 +1,16 @@
 {
-  "caption": "Google is hiding your business and you do not even know it.\nClaiming your Google Business Profile is free and takes ten minutes.\nThis one move puts you on the map for local customers today.\nNeed a real website next? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #SmallBusinessOwner #LocalSEO #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #GoogleBusinessProfile #FreeMarketing",
-  "pillar": "quick_win",
-  "topic": "Claim your free Google Business Profile in 10 minutes",
-  "duration_s": 23.9,
+  "caption": "Google can't find you without this one line.\n\nYour page title is prime real estate. Use it.\nCity plus service equals local search visibility.\nWe fix this for High Desert businesses every week.\n\n#LocalSEO #HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #PageTitle",
+  "pillar": "local_seo_tip",
+  "topic": "The one line every website needs: city + service in the page title",
+  "duration_s": 23.3,
   "script": {
-    "hook": "Google is hiding your business right now.",
+    "hook": "Google can't find you without this.",
     "beats": [
-      "Go to Google and search your business name. If no profile shows, you are invisible.",
-      "Visit business.google.com and claim your free listing. Takes ten minutes, no website needed.",
-      "Add your hours, phone, and photos. Customers searching near you will finally find you."
+      "Your page title needs your city and your service, not just your business name.",
+      "\"Plumber in Victorville\" beats \"Mike's Services\" every single time in local search.",
+      "One line change on your website can put you in front of High Desert customers today."
     ],
     "cta": "DM us SITE for a free review.",
-    "caption": "Google is hiding your business and you do not even know it.\nClaiming your Google Business Profile is free and takes ten minutes.\nThis one move puts you on the map for local customers today.\nNeed a real website next? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #SmallBusinessOwner #LocalSEO #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #GoogleBusinessProfile #FreeMarketing"
+    "caption": "Google can't find you without this one line.\n\nYour page title is prime real estate. Use it.\nCity plus service equals local search visibility.\nWe fix this for High Desert businesses every week.\n\n#LocalSEO #HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #PageTitle"
   }
 }
