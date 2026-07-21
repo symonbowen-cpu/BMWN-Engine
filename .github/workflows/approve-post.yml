@@ -32,26 +32,31 @@ jobs:
       - name: Install dependencies (no browser needed to publish)
         run: PUPPETEER_SKIP_DOWNLOAD=1 npm ci
 
+      - name: Extract image URL from issue
+        id: meta
+        run: |
+          BODY=$(cat << 'ISSUE_BODY_EOF'
+          ${{ github.event.issue.body }}
+          ISSUE_BODY_EOF
+          )
+          echo "url=$(echo "$BODY" | grep -o 'img_url=[^ ]*' | cut -d= -f2-)" >> "$GITHUB_OUTPUT"
+          echo "tag=$(echo "$BODY" | grep -o 'tag=[^ >]*' | cut -d= -f2)" >> "$GITHUB_OUTPUT"
+
       - name: Publish to Instagram
         if: startsWith(github.event.comment.body, '/approve')
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
-          IMAGE_PUBLIC_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/out/pending/post.png
+          IMAGE_PUBLIC_URL: ${{ steps.meta.outputs.url }}
         run: node src/publish.js
 
-      - name: Discard pending post
-        if: startsWith(github.event.comment.body, '/skip')
-        run: rm -f out/pending/post.png out/pending/post.json
-
-      - name: Commit result
+      - name: Delete release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "bmwn-content-engine"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A out/
-          git commit -m "content: ${{ startsWith(github.event.comment.body, '/approve') && 'published' || 'skipped' }} pending post" || echo "nothing to commit"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
+          sleep 60
+          gh release delete "${{ steps.meta.outputs.tag }}" --yes --cleanup-tag || true
 
       - name: Close issue
         env:
