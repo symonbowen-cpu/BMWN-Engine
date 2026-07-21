@@ -32,7 +32,24 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node src/generate.js
 
-      - name: Host image as release asset
+      - name: Build story frame + story video with music
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          node src/make_story.js
+          # rotate music track by day of year (matches the reel engine)
+          TRACKS=(assets/music/*.mp3)
+          if [ -e "${TRACKS[0]}" ]; then
+            IDX=$(( $(date +%-j) % ${#TRACKS[@]} ))
+            TRACK="${TRACKS[$IDX]}"
+            echo "Story music: $TRACK"
+            ffmpeg -y -loop 1 -i out/pending/story.png -i "$TRACK" \
+              -filter_complex "[0:v]zoompan=z='1+0.06*on/240':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=240:s=1080x1920:fps=30,format=yuv420p[v];[1:a]volume=0.5,afade=t=in:d=0.5,afade=t=out:st=6.4:d=1.6,atrim=0:8[a]" \
+              -map "[v]" -map "[a]" -t 8 -c:v libx264 -c:a aac -movflags +faststart out/pending/story.mp4
+          else
+            echo "No music tracks found; story will be a silent image"
+          fi
+
+      - name: Host media as release assets
         id: host
         env:
           GH_TOKEN: ${{ github.token }}
@@ -42,6 +59,10 @@ jobs:
           gh release upload "$TAG" out/pending/post.png --clobber
           echo "url=https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/post.png" >> "$GITHUB_OUTPUT"
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          if [ -f out/pending/story.mp4 ]; then
+            gh release upload "$TAG" out/pending/story.mp4 --clobber
+            echo "story_url=https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/story.mp4" >> "$GITHUB_OUTPUT"
+          fi
 
       # ---------- PATH A: fully autonomous ----------
       - name: Publish to Instagram (auto mode)
@@ -51,6 +72,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IMAGE_PUBLIC_URL: ${{ steps.host.outputs.url }}
+          STORY_VIDEO_URL: ${{ steps.host.outputs.story_url }}
         run: node src/publish.js
 
       - name: Clean up release (auto mode)
@@ -58,7 +80,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sleep 60
+          sleep 120
           gh release delete "${{ steps.host.outputs.tag }}" --yes --cleanup-tag || true
 
       # ---------- PATH B: approval mode ----------

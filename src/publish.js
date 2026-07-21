@@ -63,15 +63,30 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   }
   console.log(`Published feed post! Media ID: ${published.id}`);
 
-  // ---- 2. share the same image to Story (best-effort; never fails the run) ----
+  // ---- 2. share to Story (video with music if available; best-effort) ----
   if (process.env.SHARE_TO_STORY !== "false") {
     try {
-      const storyContainer = await graph(`${IG_USER_ID}/media`, {
-        media_type: "STORIES",
-        image_url: IMAGE_PUBLIC_URL,
-        access_token: IG_ACCESS_TOKEN,
-      });
-      await sleep(8000);
+      const storyVideo = process.env.STORY_VIDEO_URL;
+      const params = storyVideo
+        ? { media_type: "STORIES", video_url: storyVideo, access_token: IG_ACCESS_TOKEN }
+        : { media_type: "STORIES", image_url: process.env.STORY_IMAGE_URL || IMAGE_PUBLIC_URL, access_token: IG_ACCESS_TOKEN };
+      const storyContainer = await graph(`${IG_USER_ID}/media`, params);
+
+      if (storyVideo) {
+        // video stories process async — poll until ready
+        let ready = false;
+        for (let i = 0; i < 18; i++) {
+          await sleep(10000);
+          const s = await fetch(`${GRAPH}/${storyContainer.id}?fields=status_code&access_token=${IG_ACCESS_TOKEN}`).then(r => r.json());
+          console.log(`  story status: ${s.status_code}`);
+          if (s.status_code === "FINISHED") { ready = true; break; }
+          if (s.status_code === "ERROR") break;
+        }
+        if (!ready) throw new Error("story video processing did not finish");
+      } else {
+        await sleep(8000);
+      }
+
       const story = await graph(`${IG_USER_ID}/media_publish`, {
         creation_id: storyContainer.id,
         access_token: IG_ACCESS_TOKEN,
