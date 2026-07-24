@@ -1,16 +1,16 @@
 {
-  "caption": "Your next customer is reading your Google reviews before they call you.\nText three happy customers today and ask for an honest review.\nTakes ten minutes. Costs nothing. Works immediately.\nWant a website that converts all that trust into real leads? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #LocalSEO #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #GoogleReviews #ReputationMarketing",
-  "pillar": "quick_win",
-  "topic": "Ask your 3 happiest customers for a Google review today",
-  "duration_s": 20.5,
+  "caption": "If you don't have a website, 'near me' searches pretend you don't exist.\n\nGoogle needs somewhere to send people. Right now it's sending them to your competition.\n\nWe build websites for High Desert small businesses that actually show up in search.\n\nDM us SITE and let's fix that.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Barstow #NearMe",
+  "pillar": "local_seo_tip",
+  "topic": "Why 'near me' searches skip businesses without a website",
+  "duration_s": 20.9,
   "script": {
-    "hook": "Text 3 customers right now.",
+    "hook": "No website? Google skips you completely.",
     "beats": [
-      "Ask your happiest customers to leave you a Google review today.",
-      "More reviews mean more trust, more clicks, more people calling you.",
-      "It takes them two minutes and costs you nothing but a text."
+      "'Near me' searches pull from Google's index. No site, no listing.",
+      "Your competitor two blocks away shows up. You don't. That's lost money.",
+      "A real website tells Google you exist and you're open for business."
     ],
-    "cta": "DM us SITE for a free quote.",
-    "caption": "Your next customer is reading your Google reviews before they call you.\nText three happy customers today and ask for an honest review.\nTakes ten minutes. Costs nothing. Works immediately.\nWant a website that converts all that trust into real leads? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #LocalSEO #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #GoogleReviews #ReputationMarketing"
+    "cta": "DM us SITE to get found.",
+    "caption": "If you don't have a website, 'near me' searches pretend you don't exist.\n\nGoogle needs somewhere to send people. Right now it's sending them to your competition.\n\nWe build websites for High Desert small businesses that actually show up in search.\n\nDM us SITE and let's fix that.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Barstow #NearMe"
   }
 }
