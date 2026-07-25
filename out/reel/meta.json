@@ -1,16 +1,16 @@
 {
-  "caption": "If you don't have a website, 'near me' searches pretend you don't exist.\n\nGoogle needs somewhere to send people. Right now it's sending them to your competition.\n\nWe build websites for High Desert small businesses that actually show up in search.\n\nDM us SITE and let's fix that.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Barstow #NearMe",
-  "pillar": "local_seo_tip",
-  "topic": "Why 'near me' searches skip businesses without a website",
-  "duration_s": 20.9,
+  "caption": "76% of local searches happen on mobile.\nHigh Desert customers are searching from their phones every single day.\nIf your website is not built for mobile, you are losing business you never even see.\nDM us SITE and let us fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #MobileFirst",
+  "pillar": "stat",
+  "topic": "Mobile share of local searches",
+  "duration_s": 22.2,
   "script": {
-    "hook": "No website? Google skips you completely.",
+    "hook": "76% of local searches happen on mobile.",
     "beats": [
-      "'Near me' searches pull from Google's index. No site, no listing.",
-      "Your competitor two blocks away shows up. You don't. That's lost money.",
-      "A real website tells Google you exist and you're open for business."
+      "That means customers are searching for your business from their phones right now.",
+      "If your site loads slow or looks broken on mobile, they leave fast.",
+      "A mobile-ready website is not optional anymore. It is your first impression."
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "If you don't have a website, 'near me' searches pretend you don't exist.\n\nGoogle needs somewhere to send people. Right now it's sending them to your competition.\n\nWe build websites for High Desert small businesses that actually show up in search.\n\nDM us SITE and let's fix that.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Barstow #NearMe"
+    "cta": "DM us SITE to get started.",
+    "caption": "76% of local searches happen on mobile.\nHigh Desert customers are searching from their phones every single day.\nIf your website is not built for mobile, you are losing business you never even see.\nDM us SITE and let us fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #MobileFirst"
   }
 }
