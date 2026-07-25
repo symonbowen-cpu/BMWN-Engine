@@ -7,6 +7,10 @@
     "cities": ["Victorville", "Hesperia", "Apple Valley", "Adelanto", "Barstow"],
     "voice": "Direct, practical, veteran-owned small business talking to other small business owners. No corporate fluff, no jargon. Confident but never salesy. Short sentences."
   },
+  "rotation": [
+    "local_seo_tip", "referral_program", "stat", "showcase", "myth", "referral_program", "every_business",
+    "quick_win", "referral_program", "showcase", "every_business", "local_seo_tip", "referral_program", "stat"
+  ],
   "pillars": [
     {
       "id": "local_seo_tip",
@@ -20,7 +24,11 @@
         "Why your hours being wrong online costs you customers",
         "What a sitemap is and why Google cares",
         "Why Facebook-only businesses are invisible on Google",
-        "How to pick the right business category on Google Maps"
+        "How to pick the right business category on Google Maps",
+        "Why one page per service beats one page listing everything",
+        "How customer reviews mentioning your city help you rank",
+        "Why a slow website quietly kills your Google ranking",
+        "What Google looks for before showing you in the map pack"
       ]
     },
     {
@@ -33,7 +41,10 @@
         "Mobile share of local searches",
         "How fast visitors leave a slow-loading site",
         "Share of small businesses that still have no website",
-        "How often a Google Business Profile with a website link gets more clicks"
+        "How often a Google Business Profile with a website link gets more clicks",
+        "How many local searches lead to a visit or call within 24 hours",
+        "Share of consumers who distrust businesses with outdated websites",
+        "How much more likely people are to contact a business with a professional site"
       ]
     },
     {
@@ -46,7 +57,10 @@
         "Myth: 'Websites cost thousands and take months'",
         "Myth: 'Nobody in a small town searches online'",
         "Myth: 'I need to post content constantly for a website to work'",
-        "Myth: 'Yelp has me covered'"
+        "Myth: 'Yelp has me covered'",
+        "Myth: 'I'm too small to need a website'",
+        "Myth: 'My business is doing fine without one, so I'm not losing anything'",
+        "Myth: 'DIY website builders give the same result for free'"
       ]
     },
     {
@@ -60,33 +74,58 @@
         "Restaurants: a site with a menu that never looks like a blurry photo",
         "Auto shops: a site that pulls in estimate requests",
         "Real estate: a fast site that loads listings on any phone",
-        "Dental offices: new patient forms before they arrive"
+        "Dental offices: new patient forms before they arrive",
+        "Landscapers: a photo gallery that closes jobs before the estimate",
+        "Food trucks: a site that tells the desert where you're parked today",
+        "Cleaning services: a quote form that fills your calendar",
+        "Tattoo artists: a portfolio that books consultations while you work",
+        "Churches and nonprofits: a site that grows the congregation"
       ]
     },
     {
       "id": "quick_win",
-      "template": "tip",
-      "goal": "Give a 10-minute action any business owner can do today to improve their online presence, no website required. Builds trust by being useful with no strings attached.",
+      "template": "checklist",
+      "goal": "Give a short checklist (3 concrete items) any business owner can act on today to improve their online presence, no website required. Builds trust by being useful with no strings attached.",
       "topics": [
-        "Claim your free Google Business Profile in 10 minutes",
-        "Ask your 3 happiest customers for a Google review today",
-        "Add your phone number to your Instagram bio",
-        "Take 5 photos of your work and post them to your Google listing",
-        "Google your own business name and see what customers see",
-        "Make sure your holiday hours are updated online"
+        "Claim and complete your free Google Business Profile today",
+        "Get 3 new Google reviews this week: who to ask and how",
+        "The 10-minute Instagram bio tune-up for local businesses",
+        "Post 5 photos of your work to your Google listing",
+        "Google your own business: the 3 things to check",
+        "Get your hours, phone, and address consistent everywhere online",
+        "Three free things to do before you spend a dollar on marketing"
+      ]
+    },
+    {
+      "id": "every_business",
+      "template": "bigsay",
+      "goal": "One bold, quotable statement making the case that EVERY business, no matter how big or small, needs a professional website. The statement is the star: short, direct, screenshot-worthy, in the brand voice. The body line backs it up with one concrete reason. Never condescending toward small operators; the tone is 'you deserve to look as good as you are'.",
+      "topics": [
+        "The taco truck with a line out the door is still losing customers without a website",
+        "No business is too small to get Googled",
+        "A one-person business with a pro website looks established from day one",
+        "Your competitors with websites aren't better than you, they just look it",
+        "If you have a business card, you need a website",
+        "Word of mouth starts the search; your website finishes the sale",
+        "No storefront? Your website IS your storefront",
+        "A side hustle with a real website stops being a side hustle",
+        "The handyman, the baker, the dog groomer: everyone's customers are online",
+        "Looking professional online isn't vanity, it's revenue"
       ]
     },
     {
       "id": "referral_program",
-      "template": "tip",
-      "goal": "Promote the BuildMyWebNow referral program: anyone can earn a 10% commission ($120 to $450 per closed sale) by sharing their personal referral link with a business owner who needs a website. Signing up is free and takes 20 seconds at buildmywebnow.com/affiliate. The audience for this pillar is ANYONE well-connected in the High Desert (not just business owners): the friend, the regular customer, the person whose barber or mechanic still has no website. Vary the angle per the topic. Always end with the CTA to grab a link at buildmywebnow.com/affiliate (also say 'link in bio').",
+      "template": "referral",
+      "goal": "Promote the BuildMyWebNow referral program: anyone can earn a 10% commission ($120 to $450 per closed sale) by sharing their personal referral link with a business owner who needs a website. Signing up is free and takes 20 seconds at buildmywebnow.com/affiliate. The audience for this pillar is ANYONE well-connected in the High Desert (not just business owners): the friend, the regular customer, the person whose barber or mechanic still has no website. Vary the angle per the topic. The 'amount' field should vary between posts ($120–$450, $250, $450, 10%) to keep cards fresh. Steps are always some version of: get your link, share it, get paid. Always end the caption with the CTA to grab a link at buildmywebnow.com/affiliate (also say 'link in bio').",
       "topics": [
         "Know a business owner who needs a website? That introduction is worth $120 to $450",
         "How it works in 3 steps: grab your link, share it, get 10% when they book",
         "No selling required: you make the intro, we do the rest, you get paid",
         "Your barber, your mechanic, your favorite taco spot with no website: that's money on the table",
         "Real numbers: a Standard site referral pays $250, a Pro pays $450",
-        "It costs nothing to join and takes 20 seconds to get your personal link"
+        "It costs nothing to join and takes 20 seconds to get your personal link",
+        "The easiest money in the High Desert: know people, share a link",
+        "Every business you follow on Instagram with no website is a payout waiting to happen"
       ]
     }
   ],

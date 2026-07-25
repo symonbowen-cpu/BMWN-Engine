@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body>
+{{__base}}
+<div class="card">
+  <div class="eyebrow">{{eyebrow}}</div>
+
+  <div style="display: flex; align-items: baseline; gap: 28px; margin-top: 8px;">
+    <div class="display" style="font-size: 150px; line-height: 0.95; letter-spacing: -0.03em; background: linear-gradient(92deg, var(--dawn-1), var(--dawn-2)); -webkit-background-clip: text; background-clip: text; color: transparent; white-space: nowrap;">{{amount}}</div>
+  </div>
+
+  <h1 class="display" style="font-size: 62px; margin-top: 30px; max-width: 900px;">{{headline}}</h1>
+
+  <!-- 3-step strip -->
+  <div style="display: flex; gap: 20px; margin-top: 54px;">
+    <div style="flex: 1; background: var(--dusk); border: 1px solid rgba(255,179,71,0.22); border-radius: 16px; padding: 26px 26px 28px;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--dawn-2); margin-bottom: 12px;">01</div>
+      <div style="font-size: 27px; font-weight: 600; line-height: 1.3; color: var(--sand);">{{step1}}</div>
+    </div>
+    <div style="flex: 1; background: var(--dusk); border: 1px solid rgba(255,179,71,0.22); border-radius: 16px; padding: 26px 26px 28px;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--dawn-2); margin-bottom: 12px;">02</div>
+      <div style="font-size: 27px; font-weight: 600; line-height: 1.3; color: var(--sand);">{{step2}}</div>
+    </div>
+    <div style="flex: 1; background: var(--dusk); border: 1px solid rgba(255,179,71,0.22); border-radius: 16px; padding: 26px 26px 28px;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 24px; color: var(--dawn-2); margin-bottom: 12px;">03</div>
+      <div style="font-size: 27px; font-weight: 600; line-height: 1.3; color: var(--sand);">{{step3}}</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 44px; font-family: 'JetBrains Mono', monospace; font-size: 25px; letter-spacing: 0.06em; color: var(--dawn-2);">&#9670; buildmywebnow.com/affiliate</div>
+
+  <div class="footer">
+    <span class="handle">{{handle}}</span>
+    <span class="url">{{url}}</span>
+  </div>
+</div>
+</body>
+</html>

@@ -15,11 +15,18 @@ const { PENDING, themes, state, saveState, saveJSON, buildHTML } = require("./li
 const MODEL = process.env.CLAUDE_MODEL || "claude-sonnet-4-6";
 
 // ---------- pillar rotation ----------
+// If themes.json defines a "rotation" array (a repeating schedule of pillar ids),
+// it governs the posting order — this lets some pillars (e.g. referral_program)
+// appear more often than others. Falls back to simple round-robin without it.
 function pickTopic(cfg, st) {
-  const pillar = cfg.pillars[st.pillarIndex % cfg.pillars.length];
+  const seq = (Array.isArray(cfg.rotation) && cfg.rotation.length)
+    ? cfg.rotation
+    : cfg.pillars.map((p) => p.id);
+  const id = seq[st.pillarIndex % seq.length];
+  const pillar = cfg.pillars.find((p) => p.id === id) || cfg.pillars[0];
   const tIdx = st.topicIndexes[pillar.id] || 0;
   const topic = pillar.topics[tIdx % pillar.topics.length];
-  return { pillar, topic, tIdx };
+  return { pillar, topic, tIdx, seqLen: seq.length };
 }
 
 // ---------- copywriting via Claude ----------
@@ -28,10 +35,17 @@ const SCHEMAS = {
   stat: `{"eyebrow": "2-4 word label", "stat": "the number itself e.g. 76% or 8 in 10 — max 6 chars ideally", "headline": "max 10 words completing the stat", "body": "1 sentence of context or source framing, max 180 chars", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
   myth: `{"myth": "the myth in first person, max 8 words", "fact": "the correction, max 10 words", "body": "1-2 sentences expanding, max 200 chars", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
   showcase: `{"category": "plural business type, uppercase feel, 1-2 words", "headline": "max 9 words about the outcome", "mock_url": "example url like victorvillebarber.com", "mock_title": "3-5 word fake business headline", "mock_sub": "one line of what the site offers, max 90 chars", "mock_cta": "2-3 word button label", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
+  checklist: `{"eyebrow": "2-4 word category label, uppercase feel", "headline": "max 8 words, punchy", "check1": "first checklist item, max 9 words", "check2": "second checklist item, max 9 words", "check3": "third checklist item, max 9 words", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
+  bigsay: `{"eyebrow": "2-4 word label, uppercase feel", "statement": "the bold quotable statement, max 12 words, no surrounding quote marks", "body": "one sentence backing it up with a concrete reason, max 160 chars", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
+  referral: `{"eyebrow": "2-4 word label, uppercase feel", "amount": "the money hook e.g. $120-$450 or $250 or 10% — max 9 chars", "headline": "max 10 words on what the amount is for", "step1": "step one, max 6 words", "step2": "step two, max 6 words", "step3": "step three, max 6 words", "caption": "...", "hashtags": ["..."], "alt_text": "..."}`,
 };
 
-async function writeCopy(cfg, pillar, topic) {
+async function writeCopy(cfg, pillar, topic, recent) {
   if (process.env.DRY_RUN === "1") return cannedCopy(pillar);
+
+  const recentBlock = (recent && recent.length)
+    ? `\nRECENT POSTS — do NOT reuse or closely echo any of these headlines, hooks, or caption openers. Find a genuinely fresh angle, a different opening word, and a different sentence rhythm:\n${recent.map((h) => `- ${h}`).join("\n")}\n`
+    : "";
 
   const prompt = `You write Instagram content for ${cfg.brand.name} (${cfg.brand.url}), a web design service for small businesses in ${cfg.brand.region} of California (${cfg.brand.cities.join(", ")}).
 
@@ -43,6 +57,7 @@ Voice: ${cfg.brand.voice}
 Today's post pillar: ${pillar.id}
 Goal: ${pillar.goal}
 Topic: ${topic}
+${recentBlock}
 
 Rules:
 - caption: 3-5 short lines. Hook first line. One concrete takeaway. End with a soft CTA (e.g. "Link in bio" or "DM us 'SITE'"). No emojis except at most 1-2. Never use em dashes.
@@ -111,6 +126,35 @@ function cannedCopy(pillar) {
       hashtags: ["#Barbershop", "#Victorville", "#HighDesert", "#SmallBusiness", "#WebDesign", "#ShopLocal", "#Hesperia"],
       alt_text: "Showcase graphic of a barbershop website mockup in a browser frame on a dark desert background.",
     },
+    checklist: {
+      eyebrow: "QUICK WINS",
+      headline: "Three free fixes before Friday.",
+      check1: "Claim your Google Business Profile",
+      check2: "Ask 3 happy customers for reviews",
+      check3: "Fix your hours everywhere online",
+      caption: "No website yet? These three moves still put you ahead of half the businesses in town.\n\nAll free. All doable today.\n\nWhen you're ready for the real thing, we build it in days.\n\nLink in bio.",
+      hashtags: ["#SmallBusiness", "#HighDesert", "#LocalSEO", "#Victorville", "#ShopLocal", "#WebDesign", "#Hesperia"],
+      alt_text: "Checklist graphic with three quick online-presence wins on a dark desert background.",
+    },
+    bigsay: {
+      eyebrow: "REAL TALK",
+      statement: "No business is too small to get Googled.",
+      body: "Your customers search before they call. A professional website makes sure what they find says: this business is worth it.",
+      caption: "One-person shop or fifty employees, the search box treats you the same.\n\nWhat shows up decides who gets the call.\n\nWe build professional sites for High Desert businesses of every size.\n\nLink in bio.",
+      hashtags: ["#SmallBusiness", "#HighDesert", "#Victorville", "#WebDesign", "#ShopLocal", "#SupportLocal"],
+      alt_text: "Bold quote graphic reading no business is too small to get Googled, on a dark desert background.",
+    },
+    referral: {
+      eyebrow: "REFERRAL PROGRAM",
+      amount: "$120-$450",
+      headline: "for every business you send our way.",
+      step1: "Grab your free link",
+      step2: "Share it with a business owner",
+      step3: "Get 10% when they book",
+      caption: "Know somebody whose business still has no website?\n\nThat introduction is worth real money. Share your personal link, and when they book a site with us, you get 10% of the sale.\n\nFree to join. 20 seconds to get your link.\n\nbuildmywebnow.com/affiliate or link in bio.",
+      hashtags: ["#SideHustle", "#ReferralProgram", "#HighDesert", "#Victorville", "#SmallBusiness", "#PassiveIncome", "#ShopLocal"],
+      alt_text: "Referral program graphic showing a 120 to 450 dollar payout and three steps to earn, on a dark desert background.",
+    },
   };
   return canned[pillar.template];
 }
@@ -136,10 +180,10 @@ async function renderPNG(templateName, data, outPath) {
 (async () => {
   const cfg = themes();
   const st = state();
-  const { pillar, topic, tIdx } = pickTopic(cfg, st);
+  const { pillar, topic, tIdx, seqLen } = pickTopic(cfg, st);
 
   console.log(`Pillar: ${pillar.id} | Topic: ${topic}`);
-  const copy = await writeCopy(cfg, pillar, topic);
+  const copy = await writeCopy(cfg, pillar, topic, (st.history || []).slice(-16));
 
   // brand fields available to every template
   copy.handle = cfg.brand.handle;
@@ -163,10 +207,13 @@ async function renderPNG(templateName, data, outPath) {
     copy,
   });
 
-  // advance rotation
-  st.pillarIndex = (st.pillarIndex + 1) % cfg.pillars.length;
+  // advance rotation + remember this post so future copy doesn't repeat it
+  st.pillarIndex = (st.pillarIndex + 1) % seqLen;
   st.topicIndexes[pillar.id] = tIdx + 1;
   st.postCount += 1;
+  const hook = copy.headline || copy.statement || copy.fact || copy.stat || "";
+  const opener = (copy.caption || "").split("\n")[0];
+  st.history = [...(st.history || []), `[${pillar.id}] ${hook} | ${opener}`.trim()].slice(-16);
   saveState(st);
 
   console.log(`Generated ${imgPath}`);
