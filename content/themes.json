@@ -75,11 +75,25 @@
         "Google your own business name and see what customers see",
         "Make sure your holiday hours are updated online"
       ]
+    },
+    {
+      "id": "referral_program",
+      "template": "tip",
+      "goal": "Promote the BuildMyWebNow referral program: anyone can earn a 10% commission ($120 to $450 per closed sale) by sharing their personal referral link with a business owner who needs a website. Signing up is free and takes 20 seconds at buildmywebnow.com/affiliate. The audience for this pillar is ANYONE well-connected in the High Desert (not just business owners): the friend, the regular customer, the person whose barber or mechanic still has no website. Vary the angle per the topic. Always end with the CTA to grab a link at buildmywebnow.com/affiliate (also say 'link in bio').",
+      "topics": [
+        "Know a business owner who needs a website? That introduction is worth $120 to $450",
+        "How it works in 3 steps: grab your link, share it, get 10% when they book",
+        "No selling required: you make the intro, we do the rest, you get paid",
+        "Your barber, your mechanic, your favorite taco spot with no website: that's money on the table",
+        "Real numbers: a Standard site referral pays $250, a Pro pays $450",
+        "It costs nothing to join and takes 20 seconds to get your personal link"
+      ]
     }
   ],
   "hashtag_bank": [
     "#HighDesert", "#Victorville", "#Hesperia", "#AppleValley", "#Adelanto", "#Barstow",
     "#SmallBusiness", "#ShopLocal", "#WebDesign", "#SmallBusinessOwner", "#LocalSEO",
-    "#VeteranOwned", "#InlandEmpire", "#SupportLocal", "#WebsiteDesign"
+    "#VeteranOwned", "#InlandEmpire", "#SupportLocal", "#WebsiteDesign",
+    "#SideHustle", "#ReferralProgram", "#PassiveIncome"
   ]
 }
