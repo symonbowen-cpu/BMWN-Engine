@@ -1,9 +1,9 @@
 {
-  "postCount": 48,
-  "pillarIndex": 13,
+  "postCount": 49,
+  "pillarIndex": 0,
   "topicIndexes": {
     "local_seo_tip": 9,
-    "stat": 8,
+    "stat": 9,
     "myth": 9,
     "showcase": 9,
     "quick_win": 8,
@@ -21,6 +21,7 @@
     "[showcase] Your next customer needs to know where you're parked | Hungry customers are searching right now. If your location isn't online, they're buying from someone else. A simple site can show today's stop, your menu, and how to follow your route. We build them fast. DM us 'TRUCK' to get started.",
     "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today.",
     "[local_seo_tip] One service, one page. Every time. | Lumping all your services onto one page is costing you search traffic.",
-    "[referral_program] Make the intro. We handle everything else. | You already know someone who needs a website."
+    "[referral_program] Make the intro. We handle everything else. | You already know someone who needs a website.",
+    "[stat] of people judge credibility by your website | Three out of four people are sizing you up before they ever call."
   ]
 }
