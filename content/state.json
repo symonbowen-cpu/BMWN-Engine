@@ -1,8 +1,8 @@
 {
-  "postCount": 49,
-  "pillarIndex": 0,
+  "postCount": 50,
+  "pillarIndex": 1,
   "topicIndexes": {
-    "local_seo_tip": 9,
+    "local_seo_tip": 10,
     "stat": 9,
     "myth": 9,
     "showcase": 9,
@@ -22,6 +22,7 @@
     "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today.",
     "[local_seo_tip] One service, one page. Every time. | Lumping all your services onto one page is costing you search traffic.",
     "[referral_program] Make the intro. We handle everything else. | You already know someone who needs a website.",
-    "[stat] of people judge credibility by your website | Three out of four people are sizing you up before they ever call."
+    "[stat] of people judge credibility by your website | Three out of four people are sizing you up before they ever call.",
+    "[local_seo_tip] Reviews that name your city rank harder | Ask your next happy customer to mention the city by name."
   ]
 }
