@@ -1,16 +1,16 @@
 {
-  "caption": "No business is too small to get Googled.\nIf you have customers, you have people searching for you.\nDon't let a blank result cost you the job.\nLink in bio to see what we build.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GetFound",
-  "pillar": "every_business",
-  "topic": "No business is too small to get Googled",
-  "duration_s": 18.5,
+  "caption": "Three steps. Zero cost. Real money for knowing the right people.\n\nIf your barber, mechanic, or neighbor has no website, your referral link is worth up to $450.\n\nSign up free in 20 seconds at buildmywebnow.com/affiliate or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #ReferralProgram #PassiveIncome #SideHustle #WebDesign #ShopLocal #SupportLocal #VeteranOwned #InlandEmpire",
+  "pillar": "referral_program",
+  "topic": "How it works in 3 steps: grab your link, share it, get 10% when they book",
+  "duration_s": 20.2,
   "script": {
-    "hook": "Someone just Googled your business.",
+    "hook": "Get paid for a 20-second signup.",
     "beats": [
-      "What did they find? Nothing is the wrong answer.",
-      "Even a one-person operation gets searched before it gets called.",
-      "A professional website means you show up ready, not invisible."
+      "Step 1: Grab your free referral link at buildmywebnow.com/affiliate.",
+      "Step 2: Share it with any local business that still has no website.",
+      "Step 3: They book, you earn 10%. Done. No experience needed."
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "No business is too small to get Googled.\nIf you have customers, you have people searching for you.\nDon't let a blank result cost you the job.\nLink in bio to see what we build.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GetFound"
+    "cta": "Grab your link. Link in bio.",
+    "caption": "Three steps. Zero cost. Real money for knowing the right people.\n\nIf your barber, mechanic, or neighbor has no website, your referral link is worth up to $450.\n\nSign up free in 20 seconds at buildmywebnow.com/affiliate or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #ReferralProgram #PassiveIncome #SideHustle #WebDesign #ShopLocal #SupportLocal #VeteranOwned #InlandEmpire"
   }
 }
