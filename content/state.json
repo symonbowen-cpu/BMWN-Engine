@@ -1,10 +1,10 @@
 {
-  "postCount": 53,
-  "pillarIndex": 4,
+  "postCount": 54,
+  "pillarIndex": 5,
   "topicIndexes": {
     "local_seo_tip": 10,
     "stat": 10,
-    "myth": 9,
+    "myth": 10,
     "showcase": 10,
     "quick_win": 8,
     "referral_program": 4,
@@ -26,6 +26,7 @@
     "[local_seo_tip] Reviews that name your city rank harder | Ask your next happy customer to mention the city by name.",
     "[referral_program] Turn a simple tip into real cash | Look around your week. Your barber. Your mechanic. The taco spot you hit every Friday with no website in sight. That's cash sitting right in front of you. Sign up free in 20 seconds, share your link, get paid when they close. Grab your link at buildmywebnow.com/affiliate or link in bio.",
     "[stat] of shoppers look up a local business online first | Nearly every customer Googles you before showing up.",
-    "[showcase] Quote forms that book cleaning jobs while you sleep | A cleaning business runs on full calendars, not missed calls."
+    "[showcase] Quote forms that book cleaning jobs while you sleep | A cleaning business runs on full calendars, not missed calls.",
+    "[myth] Word-of-mouth sends people online before they ever call you | Referrals still Google you."
   ]
 }
