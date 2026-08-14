@@ -1,16 +1,16 @@
 {
-  "caption": "You don't have to sell anything.\n\nJust know someone in the High Desert who needs a website, share your free referral link, and earn up to $250 when they sign.\n\nWe close the deal. You get paid.\n\nGrab your link free in 20 seconds at buildmywebnow.com/affiliate \u2014 link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SideHustle #ReferralProgram #PassiveIncome #SmallBusiness #WebDesign #VeteranOwned #InlandEmpire #ShopLocal #MakeTheIntro",
-  "pillar": "referral_program",
-  "topic": "No selling required: you make the intro, we do the rest, you get paid",
-  "duration_s": 18.8,
+  "caption": "If Google can't find your pages, your customers can't either.\nA sitemap is one of the easiest fixes you're probably missing.\nWe build sites that Google can actually read.\nLink in bio to get started. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #Barstow #Sitemap #SEOTips",
+  "pillar": "local_seo_tip",
+  "topic": "What a sitemap is and why Google cares",
+  "duration_s": 20.2,
   "script": {
-    "hook": "Know someone with no website?",
+    "hook": "Google can't rank pages it can't find.",
     "beats": [
-      "Make the intro. We handle the pitch, the build, everything.",
-      "Your job ends at sharing one link. Ours begins there.",
-      "When they sign, you earn up to $250. Zero work left."
+      "A sitemap is a file that lists every page on your website.",
+      "It tells Google what exists so your site actually gets indexed.",
+      "No sitemap means Google might skip your pages completely."
     ],
-    "cta": "Grab your link at bio.",
-    "caption": "You don't have to sell anything.\n\nJust know someone in the High Desert who needs a website, share your free referral link, and earn up to $250 when they sign.\n\nWe close the deal. You get paid.\n\nGrab your link free in 20 seconds at buildmywebnow.com/affiliate \u2014 link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SideHustle #ReferralProgram #PassiveIncome #SmallBusiness #WebDesign #VeteranOwned #InlandEmpire #ShopLocal #MakeTheIntro"
+    "cta": "DM us SITE to get started.",
+    "caption": "If Google can't find your pages, your customers can't either.\nA sitemap is one of the easiest fixes you're probably missing.\nWe build sites that Google can actually read.\nLink in bio to get started. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #Barstow #Sitemap #SEOTips"
   }
 }
