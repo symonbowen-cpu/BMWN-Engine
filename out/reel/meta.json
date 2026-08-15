@@ -1,16 +1,16 @@
 {
-  "caption": "If Google can't find your pages, your customers can't either.\nA sitemap is one of the easiest fixes you're probably missing.\nWe build sites that Google can actually read.\nLink in bio to get started. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #Barstow #Sitemap #SEOTips",
-  "pillar": "local_seo_tip",
-  "topic": "What a sitemap is and why Google cares",
-  "duration_s": 20.2,
+  "caption": "Your Google profile is working against you without a website link.\nCustomers click. They check. They decide.\nWe build clean, fast websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #LocalSEO #WebDesign #SmallBusinessOwner #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleBusiness",
+  "pillar": "stat",
+  "topic": "How often a Google Business Profile with a website link gets more clicks",
+  "duration_s": 22.6,
   "script": {
-    "hook": "Google can't rank pages it can't find.",
+    "hook": "No website link? Google buries you.",
     "beats": [
-      "A sitemap is a file that lists every page on your website.",
-      "It tells Google what exists so your site actually gets indexed.",
-      "No sitemap means Google might skip your pages completely."
+      "Google Business Profiles with a website link get significantly more clicks than those without.",
+      "Customers trust a business more when they can visit a real website first.",
+      "No website means fewer clicks, fewer calls, fewer customers walking through your door."
     ],
     "cta": "DM us SITE to get started.",
-    "caption": "If Google can't find your pages, your customers can't either.\nA sitemap is one of the easiest fixes you're probably missing.\nWe build sites that Google can actually read.\nLink in bio to get started. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #Barstow #Sitemap #SEOTips"
+    "caption": "Your Google profile is working against you without a website link.\nCustomers click. They check. They decide.\nWe build clean, fast websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #LocalSEO #WebDesign #SmallBusinessOwner #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleBusiness"
   }
 }
