@@ -1,16 +1,16 @@
 {
-  "caption": "Your Google profile is working against you without a website link.\nCustomers click. They check. They decide.\nWe build clean, fast websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #LocalSEO #WebDesign #SmallBusinessOwner #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleBusiness",
-  "pillar": "stat",
-  "topic": "How often a Google Business Profile with a website link gets more clicks",
-  "duration_s": 22.6,
+  "caption": "Yelp is a tool. It is not a foundation.\nOne policy change and your visibility disappears.\nYour business deserves something you actually own.\nLink in bio to see what we build.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #VeteranOwned #ShopLocal #SupportLocal #HighDesertBusiness",
+  "pillar": "myth",
+  "topic": "Myth: 'Yelp has me covered'",
+  "duration_s": 21.2,
   "script": {
-    "hook": "No website link? Google buries you.",
+    "hook": "Yelp does not own your business.",
     "beats": [
-      "Google Business Profiles with a website link get significantly more clicks than those without.",
-      "Customers trust a business more when they can visit a real website first.",
-      "No website means fewer clicks, fewer calls, fewer customers walking through your door."
+      "Yelp can change its rules, raise prices, or bury your listing overnight.",
+      "Your website is yours. No algorithm decides if customers can find you.",
+      "Yelp rents you a shelf. A website gives you the whole store."
     ],
     "cta": "DM us SITE to get started.",
-    "caption": "Your Google profile is working against you without a website link.\nCustomers click. They check. They decide.\nWe build clean, fast websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #LocalSEO #WebDesign #SmallBusinessOwner #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleBusiness"
+    "caption": "Yelp is a tool. It is not a foundation.\nOne policy change and your visibility disappears.\nYour business deserves something you actually own.\nLink in bio to see what we build.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #VeteranOwned #ShopLocal #SupportLocal #HighDesertBusiness"
   }
 }
