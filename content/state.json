@@ -1,18 +1,17 @@
 {
-  "postCount": 61,
-  "pillarIndex": 12,
+  "postCount": 62,
+  "pillarIndex": 13,
   "topicIndexes": {
     "local_seo_tip": 11,
     "stat": 10,
     "myth": 10,
     "showcase": 11,
     "quick_win": 9,
-    "referral_program": 6,
+    "referral_program": 7,
     "every_business": 4
   },
   "lastPosted": null,
   "history": [
-    "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today.",
     "[local_seo_tip] One service, one page. Every time. | Lumping all your services onto one page is costing you search traffic.",
     "[referral_program] Make the intro. We handle everything else. | You already know someone who needs a website.",
     "[stat] of people judge credibility by your website | Three out of four people are sizing you up before they ever call.",
@@ -27,6 +26,7 @@
     "[referral_program] Twenty seconds to get your referral link | Free to join. Twenty seconds to start. No catch.",
     "[showcase] Portfolio sites that fill your book automatically | Clients are scrolling your style right now. If your work isn't on a real site, they're booking someone whose is. A portfolio with a built-in consult form does the selling while your machine is running. We build them for High Desert tattoo artists. DM us 'INK' to see what yours could look like.",
     "[every_business] They don't outwork you. They just outrank you online. | Perception is the whole game before anyone picks up the phone.",
-    "[local_seo_tip] Google penalizes slow sites before customers even arrive | Google ranks fast sites higher. Full stop."
+    "[local_seo_tip] Google penalizes slow sites before customers even arrive | Google ranks fast sites higher. Full stop.",
+    "[referral_program] Get paid just for knowing people | Your contact list is worth more than you think."
   ]
 }
