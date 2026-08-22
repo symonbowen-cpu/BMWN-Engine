@@ -1,16 +1,16 @@
 {
-  "caption": "If your only online presence is Facebook, Google does not know you exist.\nCustomers searching right now in Victorville, Hesperia, and Apple Valley will not find you.\nA website changes that fast.\nDM us SITE and let's fix it.\n\n#HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #ShopLocal #VeteranOwned #InlandEmpire #GoogleSearch #GetFoundOnline",
-  "pillar": "local_seo_tip",
-  "topic": "Why Facebook-only businesses are invisible on Google",
-  "duration_s": 21.2,
+  "caption": "76% of local searches lead to a visit or call within 24 hours.\nThat decision happens fast.\nIf you have no website, you are invisible when it counts.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #LocalSearch",
+  "pillar": "stat",
+  "topic": "How many local searches lead to a visit or call within 24 hours",
+  "duration_s": 20.2,
   "script": {
-    "hook": "Facebook is not Google. Huge difference.",
+    "hook": "76% of local searches end in a visit.",
     "beats": [
-      "When someone searches 'best plumber Victorville,' Google ignores your Facebook page.",
-      "No website means no Google listing, no map pack, no calls from strangers.",
-      "A real website puts your business on the map, literally and permanently."
+      "Someone searches for your service nearby and decides within 24 hours.",
+      "If your business has no website, they call your competitor instead.",
+      "BuildMyWebNow puts High Desert businesses where those searches land."
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "If your only online presence is Facebook, Google does not know you exist.\nCustomers searching right now in Victorville, Hesperia, and Apple Valley will not find you.\nA website changes that fast.\nDM us SITE and let's fix it.\n\n#HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #ShopLocal #VeteranOwned #InlandEmpire #GoogleSearch #GetFoundOnline"
+    "cta": "DM us SITE to get started.",
+    "caption": "76% of local searches lead to a visit or call within 24 hours.\nThat decision happens fast.\nIf you have no website, you are invisible when it counts.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #LocalSearch"
   }
 }
