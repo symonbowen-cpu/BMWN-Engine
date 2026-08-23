@@ -1,18 +1,17 @@
 {
-  "postCount": 64,
-  "pillarIndex": 1,
+  "postCount": 65,
+  "pillarIndex": 2,
   "topicIndexes": {
     "local_seo_tip": 12,
     "stat": 11,
     "myth": 10,
     "showcase": 11,
     "quick_win": 9,
-    "referral_program": 7,
+    "referral_program": 8,
     "every_business": 4
   },
   "lastPosted": null,
   "history": [
-    "[stat] of people judge credibility by your website | Three out of four people are sizing you up before they ever call.",
     "[local_seo_tip] Reviews that name your city rank harder | Ask your next happy customer to mention the city by name.",
     "[referral_program] Turn a simple tip into real cash | Look around your week. Your barber. Your mechanic. The taco spot you hit every Friday with no website in sight. That's cash sitting right in front of you. Sign up free in 20 seconds, share your link, get paid when they close. Grab your link at buildmywebnow.com/affiliate or link in bio.",
     "[stat] of shoppers look up a local business online first | Nearly every customer Googles you before showing up.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Google penalizes slow sites before customers even arrive | Google ranks fast sites higher. Full stop.",
     "[referral_program] Get paid just for knowing people | Your contact list is worth more than you think.",
     "[stat] of people decide if a business is legit by its site | Your website is your handshake.",
-    "[local_seo_tip] Three things Google checks before ranking you locally | Google's map pack does not pick businesses randomly."
+    "[local_seo_tip] Three things Google checks before ranking you locally | Google's map pack does not pick businesses randomly.",
+    "[referral_program] Spot a no-website account, collect a check | Scroll your Instagram feed for sixty seconds."
   ]
 }
