@@ -1,9 +1,9 @@
 {
-  "postCount": 65,
-  "pillarIndex": 2,
+  "postCount": 66,
+  "pillarIndex": 3,
   "topicIndexes": {
     "local_seo_tip": 12,
-    "stat": 11,
+    "stat": 12,
     "myth": 10,
     "showcase": 11,
     "quick_win": 9,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[local_seo_tip] Reviews that name your city rank harder | Ask your next happy customer to mention the city by name.",
     "[referral_program] Turn a simple tip into real cash | Look around your week. Your barber. Your mechanic. The taco spot you hit every Friday with no website in sight. That's cash sitting right in front of you. Sign up free in 20 seconds, share your link, get paid when they close. Grab your link at buildmywebnow.com/affiliate or link in bio.",
     "[stat] of shoppers look up a local business online first | Nearly every customer Googles you before showing up.",
     "[showcase] Quote forms that book cleaning jobs while you sleep | A cleaning business runs on full calendars, not missed calls.",
@@ -27,6 +26,7 @@
     "[referral_program] Get paid just for knowing people | Your contact list is worth more than you think.",
     "[stat] of people decide if a business is legit by its site | Your website is your handshake.",
     "[local_seo_tip] Three things Google checks before ranking you locally | Google's map pack does not pick businesses randomly.",
-    "[referral_program] Spot a no-website account, collect a check | Scroll your Instagram feed for sixty seconds."
+    "[referral_program] Spot a no-website account, collect a check | Scroll your Instagram feed for sixty seconds.",
+    "[stat] of local searches happen on a phone | Three out of four local searches start on a phone."
   ]
 }
