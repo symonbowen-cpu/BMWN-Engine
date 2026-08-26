@@ -1,10 +1,10 @@
 {
-  "postCount": 67,
-  "pillarIndex": 4,
+  "postCount": 68,
+  "pillarIndex": 5,
   "topicIndexes": {
     "local_seo_tip": 12,
     "stat": 12,
-    "myth": 10,
+    "myth": 11,
     "showcase": 12,
     "quick_win": 9,
     "referral_program": 8,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[stat] of shoppers look up a local business online first | Nearly every customer Googles you before showing up.",
     "[showcase] Quote forms that book cleaning jobs while you sleep | A cleaning business runs on full calendars, not missed calls.",
     "[myth] Word-of-mouth sends people online before they ever call you | Referrals still Google you.",
     "[referral_program] Standard referral pays $250. Pro referral pays $450. | Two tiers. Two paydays.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Three things Google checks before ranking you locally | Google's map pack does not pick businesses randomly.",
     "[referral_program] Spot a no-website account, collect a check | Scroll your Instagram feed for sixty seconds.",
     "[stat] of local searches happen on a phone | Three out of four local searches start on a phone.",
-    "[showcase] Sites that turn visitors into lifelong members | New people search before they ever walk through the door."
+    "[showcase] Sites that turn visitors into lifelong members | New people search before they ever walk through the door.",
+    "[myth] Facebook owns your page. A website is yours. | Facebook can delete your page tomorrow and there is nothing you can do about it."
   ]
 }
