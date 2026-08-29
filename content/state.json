@@ -1,6 +1,6 @@
 {
-  "postCount": 69,
-  "pillarIndex": 6,
+  "postCount": 70,
+  "pillarIndex": 7,
   "topicIndexes": {
     "local_seo_tip": 12,
     "stat": 12,
@@ -8,11 +8,10 @@
     "showcase": 12,
     "quick_win": 9,
     "referral_program": 9,
-    "every_business": 4
+    "every_business": 5
   },
   "lastPosted": null,
   "history": [
-    "[myth] Word-of-mouth sends people online before they ever call you | Referrals still Google you.",
     "[referral_program] Standard referral pays $250. Pro referral pays $450. | Two tiers. Two paydays.",
     "[every_business] Solo doesn't have to mean small-looking | Day one, you can look like you've been around for years.",
     "[quick_win] Three reviews. This week. Here's how. | Three reviews this week is not a big ask.",
@@ -27,6 +26,7 @@
     "[stat] of local searches happen on a phone | Three out of four local searches start on a phone.",
     "[showcase] Sites that turn visitors into lifelong members | New people search before they ever walk through the door.",
     "[myth] Facebook owns your page. A website is yours. | Facebook can delete your page tomorrow and there is nothing you can do about it.",
-    "[referral_program] One introduction to a business owner is worth this | That landscaper you know? Still no website."
+    "[referral_program] One introduction to a business owner is worth this | That landscaper you know? Still no website.",
+    "[every_business] A business card gets forgotten. A website gets found. | Hand someone your card and it ends up in a junk drawer."
   ]
 }
