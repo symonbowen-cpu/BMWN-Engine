@@ -1,18 +1,17 @@
 {
-  "postCount": 70,
-  "pillarIndex": 7,
+  "postCount": 71,
+  "pillarIndex": 8,
   "topicIndexes": {
     "local_seo_tip": 12,
     "stat": 12,
     "myth": 11,
     "showcase": 12,
-    "quick_win": 9,
+    "quick_win": 10,
     "referral_program": 9,
     "every_business": 5
   },
   "lastPosted": null,
   "history": [
-    "[referral_program] Standard referral pays $250. Pro referral pays $450. | Two tiers. Two paydays.",
     "[every_business] Solo doesn't have to mean small-looking | Day one, you can look like you've been around for years.",
     "[quick_win] Three reviews. This week. Here's how. | Three reviews this week is not a big ask.",
     "[referral_program] Twenty seconds to get your referral link | Free to join. Twenty seconds to start. No catch.",
@@ -27,6 +26,7 @@
     "[showcase] Sites that turn visitors into lifelong members | New people search before they ever walk through the door.",
     "[myth] Facebook owns your page. A website is yours. | Facebook can delete your page tomorrow and there is nothing you can do about it.",
     "[referral_program] One introduction to a business owner is worth this | That landscaper you know? Still no website.",
-    "[every_business] A business card gets forgotten. A website gets found. | Hand someone your card and it ends up in a junk drawer."
+    "[every_business] A business card gets forgotten. A website gets found. | Hand someone your card and it ends up in a junk drawer.",
+    "[quick_win] Fix your bio before lunch today | Your Instagram bio is doing the selling before you say a word."
   ]
 }
