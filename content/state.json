@@ -1,18 +1,17 @@
 {
-  "postCount": 78,
-  "pillarIndex": 1,
+  "postCount": 79,
+  "pillarIndex": 2,
   "topicIndexes": {
     "local_seo_tip": 14,
     "stat": 13,
     "myth": 11,
     "showcase": 13,
     "quick_win": 10,
-    "referral_program": 11,
+    "referral_program": 12,
     "every_business": 6
   },
   "lastPosted": null,
   "history": [
-    "[stat] of people decide if a business is legit by its site | Your website is your handshake.",
     "[local_seo_tip] Three things Google checks before ranking you locally | Google's map pack does not pick businesses randomly.",
     "[referral_program] Spot a no-website account, collect a check | Scroll your Instagram feed for sixty seconds.",
     "[stat] of local searches happen on a phone | Three out of four local searches start on a phone.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Every unanswered review costs you a ranking | Leaving reviews on read is hurting your Google rank.",
     "[referral_program] Make the intro. We close it. You cash out. | You don't pitch anything. Just say 'these guys build websites' and send your link. We handle the conversation, the build, the whole thing. You get paid when they sign. Start in 20 seconds at buildmywebnow.com/affiliate. Link in bio.",
     "[stat] of mobile users abandon a site that takes over 3 seconds to load | Half your visitors are already gone.",
-    "[local_seo_tip] Your page title is a ranking signal. Use it. | Most business websites waste their page title."
+    "[local_seo_tip] Your page title is a ranking signal. Use it. | Most business websites waste their page title.",
+    "[referral_program] For connecting a business owner with a site | Think about the businesses you visit every week."
   ]
 }
