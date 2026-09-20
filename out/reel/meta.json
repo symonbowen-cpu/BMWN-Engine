@@ -1,16 +1,16 @@
 {
-  "caption": "A slow website quietly tanks your Google ranking every single day.\nGoogle tracks load speed and punishes slow sites in search results.\nIf your site is sluggish, your competitors are showing up instead of you.\nWe build fast, lean websites for High Desert small businesses. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #Barstow #PageSpeed #GoogleRanking",
-  "pillar": "local_seo_tip",
-  "topic": "Why a slow website quietly kills your Google ranking",
-  "duration_s": 22.9,
+  "caption": "75% of customers judge your credibility by your website.\nNot your reviews. Not your location. Your site.\nIf yours looks rough or doesn't exist, you're losing business right now.\nWe build websites for High Desert small businesses. Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #WebsiteDesign #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #CredibilityMatters",
+  "pillar": "stat",
+  "topic": "How many people judge a business's credibility by its website",
+  "duration_s": 21.9,
   "script": {
-    "hook": "Your slow website is hurting your Google rank.",
+    "hook": "75% judge you before saying hello.",
     "beats": [
-      "Google measures how fast your site loads and ranks faster sites higher.",
-      "A slow site loses visitors in seconds, and Google notices every single time.",
-      "Run a free speed test at PageSpeed Insights and fix what it flags."
+      "Stanford research found 75% of people judge business credibility by website design.",
+      "No website or a bad one? They already decided to go somewhere else.",
+      "In Victorville and the High Desert, your competition is one Google search away."
     ],
-    "cta": "DM us SITE for a free review.",
-    "caption": "A slow website quietly tanks your Google ranking every single day.\nGoogle tracks load speed and punishes slow sites in search results.\nIf your site is sluggish, your competitors are showing up instead of you.\nWe build fast, lean websites for High Desert small businesses. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #Barstow #PageSpeed #GoogleRanking"
+    "cta": "DM us SITE to get started.",
+    "caption": "75% of customers judge your credibility by your website.\nNot your reviews. Not your location. Your site.\nIf yours looks rough or doesn't exist, you're losing business right now.\nWe build websites for High Desert small businesses. Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #WebsiteDesign #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #CredibilityMatters"
   }
 }
