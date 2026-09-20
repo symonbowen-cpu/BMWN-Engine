@@ -1,8 +1,8 @@
 {
-  "postCount": 91,
-  "pillarIndex": 0,
+  "postCount": 92,
+  "pillarIndex": 1,
   "topicIndexes": {
-    "local_seo_tip": 15,
+    "local_seo_tip": 16,
     "stat": 15,
     "myth": 12,
     "showcase": 15,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[referral_program] Make the intro. We close it. You cash out. | You don't pitch anything. Just say 'these guys build websites' and send your link. We handle the conversation, the build, the whole thing. You get paid when they sign. Start in 20 seconds at buildmywebnow.com/affiliate. Link in bio.",
     "[stat] of mobile users abandon a site that takes over 3 seconds to load | Half your visitors are already gone.",
     "[local_seo_tip] Your page title is a ranking signal. Use it. | Most business websites waste their page title.",
     "[referral_program] For connecting a business owner with a site | Think about the businesses you visit every week.",
@@ -27,6 +26,7 @@
     "[every_business] A real website is the day your side hustle becomes a business | Hobby. Gig. Or actual business.",
     "[local_seo_tip] No website means 'near me' never finds you | Google skips you when someone searches 'HVAC near me' in Victorville.",
     "[referral_program] All you need is a contact list | Connections pay in the High Desert.",
-    "[stat] more clicks when a website link is attached | Add a website link to your Google profile. Watch the clicks go up."
+    "[stat] more clicks when a website link is attached | Add a website link to your Google profile. Watch the clicks go up.",
+    "[local_seo_tip] Google ranks listings with more photos higher | Blurry photos or no photos? Google notices."
   ]
 }
