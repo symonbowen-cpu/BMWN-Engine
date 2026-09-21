@@ -1,18 +1,17 @@
 {
-  "postCount": 92,
-  "pillarIndex": 1,
+  "postCount": 93,
+  "pillarIndex": 2,
   "topicIndexes": {
     "local_seo_tip": 16,
     "stat": 15,
     "myth": 12,
     "showcase": 15,
     "quick_win": 11,
-    "referral_program": 15,
+    "referral_program": 16,
     "every_business": 8
   },
   "lastPosted": null,
   "history": [
-    "[stat] of mobile users abandon a site that takes over 3 seconds to load | Half your visitors are already gone.",
     "[local_seo_tip] Your page title is a ranking signal. Use it. | Most business websites waste their page title.",
     "[referral_program] For connecting a business owner with a site | Think about the businesses you visit every week.",
     "[stat] of small businesses still have no website at all | Nearly one in four small businesses is invisible online.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] No website means 'near me' never finds you | Google skips you when someone searches 'HVAC near me' in Victorville.",
     "[referral_program] All you need is a contact list | Connections pay in the High Desert.",
     "[stat] more clicks when a website link is attached | Add a website link to your Google profile. Watch the clicks go up.",
-    "[local_seo_tip] Google ranks listings with more photos higher | Blurry photos or no photos? Google notices."
+    "[local_seo_tip] Google ranks listings with more photos higher | Blurry photos or no photos? Google notices.",
+    "[referral_program] Every no-website account you follow owes you | Scroll your following list right now."
   ]
 }
