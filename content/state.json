@@ -1,18 +1,17 @@
 {
-  "postCount": 94,
-  "pillarIndex": 3,
+  "postCount": 95,
+  "pillarIndex": 4,
   "topicIndexes": {
     "local_seo_tip": 16,
     "stat": 16,
     "myth": 12,
-    "showcase": 15,
+    "showcase": 16,
     "quick_win": 11,
     "referral_program": 16,
     "every_business": 8
   },
   "lastPosted": null,
   "history": [
-    "[referral_program] For connecting a business owner with a site | Think about the businesses you visit every week.",
     "[stat] of small businesses still have no website at all | Nearly one in four small businesses is invisible online.",
     "[showcase] Catch the 2 AM 'AC is out' search | When someone's AC dies at midnight, they Google first and call whoever shows up. If your HVAC business has no site, that call goes to your competitor. We build pages built to catch that search and convert it fast. DM us 'HVAC' to see what yours could look like.",
     "[myth] Yours can be live in days, not months | Days. Not months.",
@@ -27,6 +26,7 @@
     "[stat] more clicks when a website link is attached | Add a website link to your Google profile. Watch the clicks go up.",
     "[local_seo_tip] Google ranks listings with more photos higher | Blurry photos or no photos? Google notices.",
     "[referral_program] Every no-website account you follow owes you | Scroll your following list right now.",
-    "[stat] of local searches end in a visit or call today | Somebody in Victorville is searching right now."
+    "[stat] of local searches end in a visit or call today | Somebody in Victorville is searching right now.",
+    "[showcase] Menus that load clean and actually get read | A blurry photo of your menu is not a menu."
   ]
 }
