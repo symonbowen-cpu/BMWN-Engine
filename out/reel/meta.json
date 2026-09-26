@@ -1,16 +1,16 @@
 {
-  "caption": "If you know a local business owner without a website, that connection is worth $120 to $450.\n\nOur referral program is free to join and takes 20 seconds to set up.\n\nGet your personal link at buildmywebnow.com/affiliate or tap the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #ReferralProgram #PassiveIncome #SideHustle #WebDesign #ShopLocal #VeteranOwned #SupportLocal #SmallBusinessOwner",
-  "pillar": "referral_program",
-  "topic": "Know a business owner who needs a website? That introduction is worth $120 to $450",
-  "duration_s": 20.5,
+  "caption": "Google's map pack does not pick businesses randomly.\n\nIt checks your profile, your location, and your reputation before showing your name.\n\nMost High Desert businesses are missing at least one of these three.\n\nWe build websites that help fix that. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #GoogleMaps #MapPack",
+  "pillar": "local_seo_tip",
+  "topic": "What Google looks for before showing you in the map pack",
+  "duration_s": 21.6,
   "script": {
-    "hook": "That introduction could pay you $450.",
+    "hook": "Google checks 3 things before showing you.",
     "beats": [
-      "You know someone whose business has no website. That referral is money.",
-      "Sign up free at buildmywebnow.com/affiliate. Get your link in 20 seconds.",
-      "They get a site. You get $120 to $450. Everyone wins."
+      "Relevance: your Google Business profile must match exactly what customers search for.",
+      "Distance: Google favors businesses physically close to the person searching right now.",
+      "Prominence: reviews, backlinks, and your website all signal that you are legit."
     ],
-    "cta": "Grab your link. Link in bio.",
-    "caption": "If you know a local business owner without a website, that connection is worth $120 to $450.\n\nOur referral program is free to join and takes 20 seconds to set up.\n\nGet your personal link at buildmywebnow.com/affiliate or tap the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #Barstow #SmallBusiness #ReferralProgram #PassiveIncome #SideHustle #WebDesign #ShopLocal #VeteranOwned #SupportLocal #SmallBusinessOwner"
+    "cta": "DM us SITE to get found.",
+    "caption": "Google's map pack does not pick businesses randomly.\n\nIt checks your profile, your location, and your reputation before showing your name.\n\nMost High Desert businesses are missing at least one of these three.\n\nWe build websites that help fix that. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #GoogleMaps #MapPack"
   }
 }
