@@ -1,16 +1,16 @@
 {
-  "caption": "Google's map pack does not pick businesses randomly.\n\nIt checks your profile, your location, and your reputation before showing your name.\n\nMost High Desert businesses are missing at least one of these three.\n\nWe build websites that help fix that. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #GoogleMaps #MapPack",
-  "pillar": "local_seo_tip",
-  "topic": "What Google looks for before showing you in the map pack",
-  "duration_s": 21.6,
+  "caption": "76% of local searches happen on mobile.\n\nIf your website isn't built for a phone screen, you're losing customers daily.\n\nWe build mobile-ready websites for High Desert small businesses.\n\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #MobileFirst",
+  "pillar": "stat",
+  "topic": "Mobile share of local searches",
+  "duration_s": 21.9,
   "script": {
-    "hook": "Google checks 3 things before showing you.",
+    "hook": "76% of local searches happen on mobile.",
     "beats": [
-      "Relevance: your Google Business profile must match exactly what customers search for.",
-      "Distance: Google favors businesses physically close to the person searching right now.",
-      "Prominence: reviews, backlinks, and your website all signal that you are legit."
+      "That means most High Desert customers find you on their phone first.",
+      "If your site loads slow or looks broken on mobile, they leave fast.",
+      "A site built right converts that traffic into real calls and customers."
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "Google's map pack does not pick businesses randomly.\n\nIt checks your profile, your location, and your reputation before showing your name.\n\nMost High Desert businesses are missing at least one of these three.\n\nWe build websites that help fix that. Link in bio.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #GoogleMaps #MapPack"
+    "cta": "DM us SITE to get started.",
+    "caption": "76% of local searches happen on mobile.\n\nIf your website isn't built for a phone screen, you're losing customers daily.\n\nWe build mobile-ready websites for High Desert small businesses.\n\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #MobileFirst"
   }
 }
