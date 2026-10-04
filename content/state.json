@@ -1,9 +1,9 @@
 {
-  "postCount": 104,
-  "pillarIndex": 13,
+  "postCount": 105,
+  "pillarIndex": 0,
   "topicIndexes": {
     "local_seo_tip": 17,
-    "stat": 16,
+    "stat": 17,
     "myth": 13,
     "showcase": 17,
     "quick_win": 12,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[local_seo_tip] No website means 'near me' never finds you | Google skips you when someone searches 'HVAC near me' in Victorville.",
     "[referral_program] All you need is a contact list | Connections pay in the High Desert.",
     "[stat] more clicks when a website link is attached | Add a website link to your Google profile. Watch the clicks go up.",
     "[local_seo_tip] Google ranks listings with more photos higher | Blurry photos or no photos? Google notices.",
@@ -27,6 +26,7 @@
     "[showcase] Turn every Google search into a booked estimate | Drivers decide before they ever pull into your lot.",
     "[every_business] Sloppy online presence doesn't just look bad. It costs you. | First impressions happen on Google now.",
     "[local_seo_tip] Wrong hours online send customers straight to competitors | Somebody searches your business at 7 PM to see if you're still open.",
-    "[referral_program] Make the intro. We close. You collect. | Think of one business owner who still has no website."
+    "[referral_program] Make the intro. We close. You collect. | Think of one business owner who still has no website.",
+    "[stat] of consumers judge credibility by your website | Outdated website? Customers already decided to leave."
   ]
 }
