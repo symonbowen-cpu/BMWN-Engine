@@ -1,16 +1,16 @@
 {
-  "caption": "Your site has 3 seconds. That's it.\n53% of visitors bail if it loads any slower.\nWe build fast, clean websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #WebsiteDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #PageSpeed #SiteSpeed",
-  "pillar": "stat",
-  "topic": "How fast visitors leave a slow-loading site",
+  "caption": "Think the High Desert is too small for Google to matter? Think again.\nYour customers are searching online every single day.\nIf you don't have a website, you're invisible.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #SupportLocal #DebunkTheMyth",
+  "pillar": "myth",
+  "topic": "Myth: 'Nobody in a small town searches online'",
   "duration_s": 21.2,
   "script": {
-    "hook": "Slow website? They're already gone.",
+    "hook": "Small town means nobody searches? Wrong.",
     "beats": [
-      "53% of visitors leave a site that takes over 3 seconds to load.",
-      "That's not a bounce. That's a customer walking straight to your competitor.",
-      "Speed is not a luxury. It is part of your first impression."
+      "97% of people look up local businesses online before they visit or call.",
+      "Your neighbors in Apple Valley and Hesperia are searching right now.",
+      "If you have no website, they find your competitor instead of you."
     ],
-    "cta": "DM us SITE. We fix that.",
-    "caption": "Your site has 3 seconds. That's it.\n53% of visitors bail if it loads any slower.\nWe build fast, clean websites for High Desert small businesses.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #WebsiteDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #PageSpeed #SiteSpeed"
+    "cta": "DM us SITE to get found.",
+    "caption": "Think the High Desert is too small for Google to matter? Think again.\nYour customers are searching online every single day.\nIf you don't have a website, you're invisible.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #SupportLocal #DebunkTheMyth"
   }
 }
