@@ -1,10 +1,10 @@
 {
-  "postCount": 109,
-  "pillarIndex": 4,
+  "postCount": 110,
+  "pillarIndex": 5,
   "topicIndexes": {
     "local_seo_tip": 18,
     "stat": 18,
-    "myth": 13,
+    "myth": 14,
     "showcase": 18,
     "quick_win": 12,
     "referral_program": 20,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[stat] of local searches end in a visit or call today | Somebody in Victorville is searching right now.",
     "[showcase] Menus that load clean and actually get read | A blurry photo of your menu is not a menu.",
     "[myth] High Desert locals Google everything before they leave home | Your town is on Google. Every part of it.",
     "[referral_program] One introduction. Real cash in your pocket. | That business owner you know, the one still sending people to a Facebook page, that conversation is worth up to $450. Tell them about BuildMyWebNow. Drop your link. Get paid when they sign up. Grab your free affiliate link at buildmywebnow.com/affiliate. Link in bio.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Google can't rank pages it can't find | Google has to find your pages before it can rank them.",
     "[referral_program] Know someone whose taco spot has no website? | Look around at the businesses you visit every week.",
     "[stat] judge your credibility by your website design | Three out of four people decide to trust you based on your website.",
-    "[showcase] Listings that load fast and look sharp on any phone | Slow listing sites lose buyers before the photos load."
+    "[showcase] Listings that load fast and look sharp on any phone | Slow listing sites lose buyers before the photos load.",
+    "[myth] A well-built site works for you around the clock | Set it up right once. Let it run."
   ]
 }
