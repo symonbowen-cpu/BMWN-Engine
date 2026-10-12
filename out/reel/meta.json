@@ -1,16 +1,16 @@
 {
-  "caption": "1 in 5 small businesses still has no website.\nThat's your opening.\nIf you're in the High Desert and ready to get online, we build sites fast.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #WebsiteDesign #GetFoundOnline",
-  "pillar": "stat",
-  "topic": "Share of small businesses that still have no website",
-  "duration_s": 21.2,
+  "caption": "Myth: your website needs constant content to work.\n\nNot true. A solid, well-built site pulls in local customers on its own.\n\nStop waiting until you have time to blog. Get the foundation right first.\n\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #DigitalMarketing #MythBusted",
+  "pillar": "myth",
+  "topic": "Myth: 'I need to post content constantly for a website to work'",
+  "duration_s": 20.9,
   "script": {
-    "hook": "1 in 5 small businesses has no website.",
+    "hook": "You don't need to post every day.",
     "beats": [
-      "That means your competitor might be invisible online right now.",
-      "Customers search Google first. No website means no chance of being found.",
-      "A simple, professional site puts you ahead of businesses doing nothing."
+      "A well-built website works for you 24/7 without constant updates.",
+      "Good structure, clear services, and local SEO do the heavy lifting.",
+      "Post when you want. Your site still brings in leads while you sleep."
     ],
-    "cta": "Link in bio. Let us build yours.",
-    "caption": "1 in 5 small businesses still has no website.\nThat's your opening.\nIf you're in the High Desert and ready to get online, we build sites fast.\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #ShopLocal #WebsiteDesign #GetFoundOnline"
+    "cta": "DM us SITE to get started.",
+    "caption": "Myth: your website needs constant content to work.\n\nNot true. A solid, well-built site pulls in local customers on its own.\n\nStop waiting until you have time to blog. Get the foundation right first.\n\nDM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #LocalSEO #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #DigitalMarketing #MythBusted"
   }
 }
