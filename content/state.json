@@ -1,6 +1,6 @@
 {
-  "postCount": 115,
-  "pillarIndex": 10,
+  "postCount": 116,
+  "pillarIndex": 11,
   "topicIndexes": {
     "local_seo_tip": 18,
     "stat": 18,
@@ -8,11 +8,10 @@
     "showcase": 19,
     "quick_win": 13,
     "referral_program": 22,
-    "every_business": 11
+    "every_business": 12
   },
   "lastPosted": null,
   "history": [
-    "[referral_program] Earn 10% every time a business signs up | Three steps. No selling required.",
     "[showcase] Turn every Google search into a booked estimate | Drivers decide before they ever pull into your lot.",
     "[every_business] Sloppy online presence doesn't just look bad. It costs you. | First impressions happen on Google now.",
     "[local_seo_tip] Wrong hours online send customers straight to competitors | Somebody searches your business at 7 PM to see if you're still open.",
@@ -27,6 +26,7 @@
     "[every_business] A line out the door still leaves money on the table | Packed every lunch shift. Still losing dinner customers.",
     "[quick_win] Same info everywhere. Customers find you. | Scattered business info is a silent customer killer.",
     "[referral_program] Twenty seconds and your link is live | Signing up costs nothing. Takes about 20 seconds.",
-    "[showcase] Patients arrive ready. Forms done before they walk in. | Dental patients hate clipboards."
+    "[showcase] Patients arrive ready. Forms done before they walk in. | Dental patients hate clipboards.",
+    "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today."
   ]
 }
