@@ -1,16 +1,16 @@
 {
-  "caption": "Someone searched for what you sell today.\nIf you don't have a website, they hired someone else.\nNo business is too small to get Googled.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GetFound",
-  "pillar": "every_business",
-  "topic": "No business is too small to get Googled",
-  "duration_s": 19.5,
+  "caption": "Your barber, your mechanic, your favorite taco spot \u2014 none of them have a website.\nThat is a referral check sitting on the table.\nSign up free, share your link, earn up to $250 per closed sale.\nGrab your link at buildmywebnow.com/affiliate \u2014 link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SideHustle #ReferralProgram #PassiveIncome #SmallBusiness #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #LocalBusiness",
+  "pillar": "referral_program",
+  "topic": "Your barber, your mechanic, your favorite taco spot with no website: that's money on the table",
+  "duration_s": 24.3,
   "script": {
-    "hook": "Someone Googled your business today.",
+    "hook": "Your barber has no website. Fix that.",
     "beats": [
-      "What did they find? Nothing? A competitor beat you without trying.",
-      "No business is too small to get Googled. Not yours.",
-      "A professional website means you show up ready when they look."
+      "Sign up free at buildmywebnow.com/affiliate and get your personal referral link in 20 seconds.",
+      "Share it with any local business owner who needs a website. That is literally it.",
+      "When they close, you earn up to $250. No selling. No experience. Just a link."
     ],
-    "cta": "DM us SITE to get started.",
-    "caption": "Someone searched for what you sell today.\nIf you don't have a website, they hired someone else.\nNo business is too small to get Googled.\nDM us SITE and let's fix that.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GetFound"
+    "cta": "Grab your link in bio now.",
+    "caption": "Your barber, your mechanic, your favorite taco spot \u2014 none of them have a website.\nThat is a referral check sitting on the table.\nSign up free, share your link, earn up to $250 per closed sale.\nGrab your link at buildmywebnow.com/affiliate \u2014 link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SideHustle #ReferralProgram #PassiveIncome #SmallBusiness #ShopLocal #WebDesign #VeteranOwned #InlandEmpire #SupportLocal #LocalBusiness"
   }
 }
