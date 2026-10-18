@@ -1,16 +1,16 @@
 {
-  "caption": "If you don't have a website, 'near me' searches don't find you.\nGoogle needs something to index before it sends customers your way.\nWe build websites for High Desert small businesses that actually show up.\nDM us SITE and let's fix that this week.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #NearMeSearch #GetFoundOnline",
-  "pillar": "local_seo_tip",
-  "topic": "Why 'near me' searches skip businesses without a website",
-  "duration_s": 21.6,
+  "caption": "No website link on your Google profile is costing you real customers.\nGoogle rewards businesses that look legit, and a website is the first signal.\nWe build clean, fast websites for High Desert small businesses.\nReady? DM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GoogleBusinessProfile #LocalSearch",
+  "pillar": "stat",
+  "topic": "How often a Google Business Profile with a website link gets more clicks",
+  "duration_s": 22.9,
   "script": {
-    "hook": "No website? Google skips you completely.",
+    "hook": "No website link? Google buries you.",
     "beats": [
-      "'Near me' searches pull from Google's index. No site means no listing.",
-      "Your competitor two blocks away shows up. You don't. That's lost revenue.",
-      "A basic website tells Google you exist and puts you on the map."
+      "Google Business Profiles with a website link get significantly more clicks than those without.",
+      "Customers see no link and assume you are not serious or not open.",
+      "One link separates the businesses that get called from the ones that get skipped."
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "If you don't have a website, 'near me' searches don't find you.\nGoogle needs something to index before it sends customers your way.\nWe build websites for High Desert small businesses that actually show up.\nDM us SITE and let's fix that this week.\n\n#HighDesert #LocalSEO #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #NearMeSearch #GetFoundOnline"
+    "cta": "DM us SITE to get started.",
+    "caption": "No website link on your Google profile is costing you real customers.\nGoogle rewards businesses that look legit, and a website is the first signal.\nWe build clean, fast websites for High Desert small businesses.\nReady? DM us SITE or hit the link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #GoogleBusinessProfile #LocalSearch"
   }
 }
