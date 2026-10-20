@@ -1,18 +1,17 @@
 {
-  "postCount": 120,
-  "pillarIndex": 1,
+  "postCount": 121,
+  "pillarIndex": 2,
   "topicIndexes": {
     "local_seo_tip": 20,
     "stat": 19,
     "myth": 14,
     "showcase": 19,
     "quick_win": 13,
-    "referral_program": 23,
+    "referral_program": 24,
     "every_business": 12
   },
   "lastPosted": null,
   "history": [
-    "[stat] of consumers judge credibility by your website | Outdated website? Customers already decided to leave.",
     "[local_seo_tip] Google can't rank pages it can't find | Google has to find your pages before it can rank them.",
     "[referral_program] Know someone whose taco spot has no website? | Look around at the businesses you visit every week.",
     "[stat] judge your credibility by your website design | Three out of four people decide to trust you based on your website.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Facebook pages don't show up on Google Maps | Facebook followers don't pay your bills. Google searches do.",
     "[referral_program] You know people. That's worth real cash. | Your contact list is already the job.",
     "[stat] of shoppers go online before visiting a local store | Nearly every customer Googles you first.",
-    "[local_seo_tip] Wrong category on Google Maps costs you customers | Your Google Maps category is not a label. It is a ranking signal."
+    "[local_seo_tip] Wrong category on Google Maps costs you customers | Your Google Maps category is not a label. It is a ranking signal.",
+    "[referral_program] Every no-website follow is a payout waiting | Scroll your Instagram feed right now."
   ]
 }
