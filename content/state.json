@@ -1,9 +1,9 @@
 {
-  "postCount": 121,
-  "pillarIndex": 2,
+  "postCount": 122,
+  "pillarIndex": 3,
   "topicIndexes": {
     "local_seo_tip": 20,
-    "stat": 19,
+    "stat": 20,
     "myth": 14,
     "showcase": 19,
     "quick_win": 13,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[local_seo_tip] Google can't rank pages it can't find | Google has to find your pages before it can rank them.",
     "[referral_program] Know someone whose taco spot has no website? | Look around at the businesses you visit every week.",
     "[stat] judge your credibility by your website design | Three out of four people decide to trust you based on your website.",
     "[showcase] Listings that load fast and look sharp on any phone | Slow listing sites lose buyers before the photos load.",
@@ -27,6 +26,7 @@
     "[referral_program] You know people. That's worth real cash. | Your contact list is already the job.",
     "[stat] of shoppers go online before visiting a local store | Nearly every customer Googles you first.",
     "[local_seo_tip] Wrong category on Google Maps costs you customers | Your Google Maps category is not a label. It is a ranking signal.",
-    "[referral_program] Every no-website follow is a payout waiting | Scroll your Instagram feed right now."
+    "[referral_program] Every no-website follow is a payout waiting | Scroll your Instagram feed right now.",
+    "[stat] of people question credibility from website design alone | Looks matter more than most owners realize."
   ]
 }
