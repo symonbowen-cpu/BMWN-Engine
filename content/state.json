@@ -1,10 +1,10 @@
 {
-  "postCount": 123,
-  "pillarIndex": 4,
+  "postCount": 124,
+  "pillarIndex": 5,
   "topicIndexes": {
     "local_seo_tip": 20,
     "stat": 20,
-    "myth": 14,
+    "myth": 15,
     "showcase": 20,
     "quick_win": 13,
     "referral_program": 24,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[stat] judge your credibility by your website design | Three out of four people decide to trust you based on your website.",
     "[showcase] Listings that load fast and look sharp on any phone | Slow listing sites lose buyers before the photos load.",
     "[myth] A well-built site works for you around the clock | Set it up right once. Let it run.",
     "[referral_program] Here's exactly what each referral pays you | Standard site closes? $250 lands in your pocket. Pro site closes? That's $450. One text to the right person does it. No selling, no follow-up, no awkward pitch. Just drop your link and let us handle the rest. Grab yours free at buildmywebnow.com/affiliate. Link in bio.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Wrong category on Google Maps costs you customers | Your Google Maps category is not a label. It is a ranking signal.",
     "[referral_program] Every no-website follow is a payout waiting | Scroll your Instagram feed right now.",
     "[stat] of people question credibility from website design alone | Looks matter more than most owners realize.",
-    "[showcase] Gallery pages that sell the job before you quote | Pictures close landscaping jobs faster than any sales pitch. A homeowner scrolling your gallery at 9pm is already sold by the time they request an estimate. Without a site, that decision goes to whoever shows up first on Google. We build landscaping sites with photo galleries that do the convincing for you. Link in bio."
+    "[showcase] Gallery pages that sell the job before you quote | Pictures close landscaping jobs faster than any sales pitch. A homeowner scrolling your gallery at 9pm is already sold by the time they request an estimate. Without a site, that decision goes to whoever shows up first on Google. We build landscaping sites with photo galleries that do the convincing for you. Link in bio.",
+    "[myth] Yelp owns that page. You own nothing there. | Yelp works for Yelp, not for you."
   ]
 }
