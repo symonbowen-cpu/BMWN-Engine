@@ -1,16 +1,16 @@
 {
-  "caption": "Your Google Business photos directly affect how many people call you.\n\nListings with more high-quality photos rank better and get more clicks.\n\nAdd 10 photos this week. It costs nothing and takes 20 minutes.\n\nWant a website that backs up that listing? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #VeteranOwned #InlandEmpire #GoogleBusiness #LocalSearch",
-  "pillar": "local_seo_tip",
-  "topic": "How photos on your Google listing affect calls",
-  "duration_s": 22.2,
+  "caption": "76% of local searches lead to a call or visit within 24 hours.\nHigh Desert customers are searching right now.\nIf you have no website, you are not even in the race.\nDM us SITE and let's get you found.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #LocalSearch",
+  "pillar": "stat",
+  "topic": "How many local searches lead to a visit or call within 24 hours",
+  "duration_s": 20.9,
   "script": {
-    "hook": "Your Google photos are costing you calls.",
+    "hook": "76% of local searches end in a visit.",
     "beats": [
-      "Listings with 10 or more photos get significantly more direction requests and clicks.",
-      "Blurry, dark, or zero photos tell Google your business is not active.",
-      "Add fresh photos weekly: your team, your work, your location. Watch calls increase."
+      "Someone in Victorville searches your service. They act within 24 hours.",
+      "If your business has no website, they find your competitor instead.",
+      "That is not a maybe. That is happening right now, today."
     ],
-    "cta": "DM us SITE to get started.",
-    "caption": "Your Google Business photos directly affect how many people call you.\n\nListings with more high-quality photos rank better and get more clicks.\n\nAdd 10 photos this week. It costs nothing and takes 20 minutes.\n\nWant a website that backs up that listing? Link in bio.\n\n#HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #VeteranOwned #InlandEmpire #GoogleBusiness #LocalSearch"
+    "cta": "DM us SITE. Let's fix that.",
+    "caption": "76% of local searches lead to a call or visit within 24 hours.\nHigh Desert customers are searching right now.\nIf you have no website, you are not even in the race.\nDM us SITE and let's get you found.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ShopLocal #LocalSearch"
   }
 }
