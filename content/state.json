@@ -1,6 +1,6 @@
 {
-  "postCount": 129,
-  "pillarIndex": 10,
+  "postCount": 130,
+  "pillarIndex": 11,
   "topicIndexes": {
     "local_seo_tip": 20,
     "stat": 20,
@@ -8,11 +8,10 @@
     "showcase": 21,
     "quick_win": 14,
     "referral_program": 26,
-    "every_business": 13
+    "every_business": 14
   },
   "lastPosted": null,
   "history": [
-    "[referral_program] Twenty seconds and your link is live | Signing up costs nothing. Takes about 20 seconds.",
     "[showcase] Patients arrive ready. Forms done before they walk in. | Dental patients hate clipboards.",
     "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today.",
     "[local_seo_tip] Facebook pages don't show up on Google Maps | Facebook followers don't pay your bills. Google searches do.",
@@ -27,6 +26,7 @@
     "[every_business] Day one with a pro site looks nothing like day one without one. | Solo doesn't have to mean scrappy.",
     "[quick_win] Do These Before You Spend a Dime | Spend zero dollars first.",
     "[referral_program] Earn ten percent every time a business signs | Three steps between you and a real payout.",
-    "[showcase] Your next stop, live on your site today | Hungry customers won't hunt you down. They'll just buy somewhere else. A food truck site can post your location daily, show your menu, and answer every question before they even leave the house. We build them fast, keep them simple, and make sure Google knows you exist. Link in bio."
+    "[showcase] Your next stop, live on your site today | Hungry customers won't hunt you down. They'll just buy somewhere else. A food truck site can post your location daily, show your menu, and answer every question before they even leave the house. We build them fast, keep them simple, and make sure Google knows you exist. Link in bio.",
+    "[every_business] A website does not care how long you have been open | Your competitor is not better at the job than you."
   ]
 }
