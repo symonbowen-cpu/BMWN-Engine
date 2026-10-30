@@ -1,8 +1,8 @@
 {
-  "postCount": 130,
-  "pillarIndex": 11,
+  "postCount": 131,
+  "pillarIndex": 12,
   "topicIndexes": {
-    "local_seo_tip": 20,
+    "local_seo_tip": 21,
     "stat": 20,
     "myth": 15,
     "showcase": 21,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[showcase] Patients arrive ready. Forms done before they walk in. | Dental patients hate clipboards.",
     "[every_business] Someone searched your business name today. What did they find? | Someone searched your business name today.",
     "[local_seo_tip] Facebook pages don't show up on Google Maps | Facebook followers don't pay your bills. Google searches do.",
     "[referral_program] You know people. That's worth real cash. | Your contact list is already the job.",
@@ -27,6 +26,7 @@
     "[quick_win] Do These Before You Spend a Dime | Spend zero dollars first.",
     "[referral_program] Earn ten percent every time a business signs | Three steps between you and a real payout.",
     "[showcase] Your next stop, live on your site today | Hungry customers won't hunt you down. They'll just buy somewhere else. A food truck site can post your location daily, show your menu, and answer every question before they even leave the house. We build them fast, keep them simple, and make sure Google knows you exist. Link in bio.",
-    "[every_business] A website does not care how long you have been open | Your competitor is not better at the job than you."
+    "[every_business] A website does not care how long you have been open | Your competitor is not better at the job than you.",
+    "[local_seo_tip] One Service Per Page Wins More Searches | Stuffing every service onto one page splits your ranking power."
   ]
 }
