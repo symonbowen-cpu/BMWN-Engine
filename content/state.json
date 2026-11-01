@@ -1,9 +1,9 @@
 {
-  "postCount": 132,
-  "pillarIndex": 13,
+  "postCount": 133,
+  "pillarIndex": 0,
   "topicIndexes": {
     "local_seo_tip": 21,
-    "stat": 20,
+    "stat": 21,
     "myth": 15,
     "showcase": 21,
     "quick_win": 14,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[local_seo_tip] Facebook pages don't show up on Google Maps | Facebook followers don't pay your bills. Google searches do.",
     "[referral_program] You know people. That's worth real cash. | Your contact list is already the job.",
     "[stat] of shoppers go online before visiting a local store | Nearly every customer Googles you first.",
     "[local_seo_tip] Wrong category on Google Maps costs you customers | Your Google Maps category is not a label. It is a ranking signal.",
@@ -27,6 +26,7 @@
     "[showcase] Your next stop, live on your site today | Hungry customers won't hunt you down. They'll just buy somewhere else. A food truck site can post your location daily, show your menu, and answer every question before they even leave the house. We build them fast, keep them simple, and make sure Google knows you exist. Link in bio.",
     "[every_business] A website does not care how long you have been open | Your competitor is not better at the job than you.",
     "[local_seo_tip] One Service Per Page Wins More Searches | Stuffing every service onto one page splits your ranking power.",
-    "[referral_program] Make the intro. We handle everything else. | Think of someone you know who has no website."
+    "[referral_program] Make the intro. We handle everything else. | Think of someone you know who has no website.",
+    "[stat] of local searches happen on a mobile phone | Three out of four local searches happen on a phone."
   ]
 }
