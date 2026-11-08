@@ -1,16 +1,16 @@
 {
-  "caption": "Google can't rank a page it doesn't know exists.\nA sitemap fixes that. It's one file. It matters.\nWe build sites for High Desert small businesses that Google can actually find.\nLink in bio to get started.\n\n#LocalSEO #HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Sitemap #GoogleSearch",
-  "pillar": "local_seo_tip",
-  "topic": "What a sitemap is and why Google cares",
+  "caption": "Three out of four people check your website before they call you.\nIf you don't have one, they're calling someone else.\nWe build professional websites for High Desert small businesses.\nLink in bio to see our work.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #TrustSignals",
+  "pillar": "stat",
+  "topic": "How much more likely people are to contact a business with a professional site",
   "duration_s": 20.5,
   "script": {
-    "hook": "Google can't rank what it can't find.",
+    "hook": "No website? They're calling your competitor.",
     "beats": [
-      "A sitemap is a file that lists every page on your website.",
-      "It tells Google what exists so your site actually gets indexed.",
-      "No sitemap means Google might skip your Victorville business entirely."
+      "75% of people judge a business by its website before contacting them.",
+      "No site or a bad one means they move on fast.",
+      "A professional site turns searchers into calls, visits, and paying customers."
     ],
     "cta": "DM us SITE to get started.",
-    "caption": "Google can't rank a page it doesn't know exists.\nA sitemap fixes that. It's one file. It matters.\nWe build sites for High Desert small businesses that Google can actually find.\nLink in bio to get started.\n\n#LocalSEO #HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #Sitemap #GoogleSearch"
+    "caption": "Three out of four people check your website before they call you.\nIf you don't have one, they're calling someone else.\nWe build professional websites for High Desert small businesses.\nLink in bio to see our work.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #LocalSEO #ShopLocal #VeteranOwned #InlandEmpire #TrustSignals"
   }
 }
