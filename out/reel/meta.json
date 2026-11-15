@@ -1,16 +1,16 @@
 {
-  "caption": "If your only online presence is Facebook, Google has no idea you exist.\nCustomers searching right now in the High Desert cannot find you.\nA website changes that fast.\nDM us SITE and let's fix it. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleSearch",
-  "pillar": "local_seo_tip",
-  "topic": "Why Facebook-only businesses are invisible on Google",
-  "duration_s": 22.9,
+  "caption": "97% of consumers search online before visiting a local business.\nIf you don't have a website, you're invisible.\nWe build websites for High Desert small businesses.\nLink in bio to get started.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ConsumerBehavior",
+  "pillar": "stat",
+  "topic": "Percentage of consumers who search online before visiting a local business",
+  "duration_s": 18.5,
   "script": {
-    "hook": "Facebook is not Google. Big difference.",
+    "hook": "97% of people search online first.",
     "beats": [
-      "When someone searches 'best plumber in Victorville,' Google shows websites, not Facebook pages.",
-      "No website means no ranking, no clicks, no calls from customers ready to buy.",
-      "A real website puts your business on the map, literally and in search results."
+      "Before visiting any local business, customers Google it.",
+      "No website means you lose before they ever show up.",
+      "High Desert shoppers are searching right now. Are you there?"
     ],
-    "cta": "DM us SITE to get found.",
-    "caption": "If your only online presence is Facebook, Google has no idea you exist.\nCustomers searching right now in the High Desert cannot find you.\nA website changes that fast.\nDM us SITE and let's fix it. #HighDesert #Victorville #Hesperia #AppleValley #LocalSEO #SmallBusiness #SmallBusinessOwner #WebDesign #WebsiteDesign #VeteranOwned #InlandEmpire #ShopLocal #GoogleSearch"
+    "cta": "DM us SITE. Let's fix that.",
+    "caption": "97% of consumers search online before visiting a local business.\nIf you don't have a website, you're invisible.\nWe build websites for High Desert small businesses.\nLink in bio to get started.\n\n#HighDesert #Victorville #Hesperia #AppleValley #SmallBusiness #WebDesign #LocalSEO #SmallBusinessOwner #VeteranOwned #InlandEmpire #WebsiteDesign #ConsumerBehavior"
   }
 }
