@@ -1,10 +1,10 @@
 {
-  "postCount": 151,
-  "pillarIndex": 4,
+  "postCount": 152,
+  "pillarIndex": 5,
   "topicIndexes": {
     "local_seo_tip": 24,
     "stat": 24,
-    "myth": 16,
+    "myth": 17,
     "showcase": 24,
     "quick_win": 15,
     "referral_program": 32,
@@ -12,7 +12,6 @@
   },
   "lastPosted": null,
   "history": [
-    "[stat] of mobile users abandon a site that takes over 3 seconds to load | Half your visitors are already gone.",
     "[showcase] Quote forms that fill cleaning calendars automatically | Cleaning clients decide fast and move on faster.",
     "[myth] Small means your reputation does the most work online | Customers Google before they call. Every single time.",
     "[referral_program] Exactly what each referral puts in your pocket | Standard site closes? You just earned $250. Pro site closes? That's $450 in your account.",
@@ -27,6 +26,7 @@
     "[local_seo_tip] Three Things Google Checks Before Showing Your Business | Consistency wins the map pack.",
     "[referral_program] Every no-website account you follow owes you | Scroll your following list right now.",
     "[stat] more clicks when a website link is listed | Your Google listing is already out there.",
-    "[showcase] Websites that bring new faces through the door | New members look you up before they ever show up."
+    "[showcase] Websites that bring new faces through the door | New members look you up before they ever show up.",
+    "[myth] You lose every customer who searched and found your competitor | Invisible isn't the same as stable."
   ]
 }
